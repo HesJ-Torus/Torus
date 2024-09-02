@@ -1,1 +1,15 @@
-style
+<style>
+.flex-container{
+ display: flex;
+ background-color: black;
+}
+.flex-container > div {
+ background-color: white;
+ margin: 10%;
+ padding: 10%;
+ }
+ .logo{
+ position: relative;
+ left: 8%;
+ }
+</style>
