@@ -17,7 +17,12 @@ timeline.to(".imageWrap",{
 }, 1).from(".hide",{
 	opacity: "0", 
 	duration: 1,
-}, 1);
+}, 1).to(".imageWrap",{
+	rotation: 360,
+	duration: 1.5,
+	repeat: -1,
+	repeatDelay: 5,
+}, 2.5);
 
 
 function getYDistance(el) {
