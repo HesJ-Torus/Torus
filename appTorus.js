@@ -1,4 +1,8 @@
+
+
+
 let timeline = gsap.timeline();
+
 
 timeline.to(".imageWrap",{
 	height: "500px",
@@ -23,6 +27,11 @@ timeline.to(".imageWrap",{
 	repeat: -1,
 	repeatDelay: 5,
 }, 2.5);
+
+gsap.registerPlugin(ScrollTrigger) 
+
+
+
 
 
 function getYDistance(el) {
