@@ -2,7 +2,7 @@ let timeline = gsap.timeline();
 
 timeline.to(".imageWrap",{
 	height: "500px",
-	width: "22%",
+	width: "10%",
 	duration: 1,
 	ease: "power4.Out",
 }).to(".imageWrap",{
