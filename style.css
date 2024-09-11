@@ -75,7 +75,7 @@
  
  .imageWrap{
 	 position: absolute;
-	 width:0%;
+	 width:0rem;
 	 max-width: 1000px;
 	 height: 0px;
 	 bottom: 50%;
