@@ -20,7 +20,6 @@
  }
  main{
 	 position: relative;
-	 background-image: linear-gradient(to top, grey, 2%, white, 40%, white);
 	 width:100%;
 	 min-height: 750px;
 	 height: 100vh; 

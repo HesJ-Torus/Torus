@@ -30,6 +30,92 @@ timeline.to(".imageWrap",{
 
 gsap.registerPlugin(ScrollTrigger) 
 
+gsap.to(".content", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"80 80%",
+		end:"+=300 50%",
+		scrub:"true",
+		markers: true,
+		toggleActions:"restart none reverse none"
+	},
+	backgroundColor:"black",
+});
+gsap.to("main", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"80 80%",
+		end:"+=300 50%",
+		scrub:"true",
+		markers: true,
+		toggleActions:"restart none reverse none"
+	},
+	backgroundColor:"black"
+});
+gsap.to(".imageWrap", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=300 50%",
+		scrub:"true",
+		toggleActions:"restart none reverse none"
+	},
+	bottom:"100%"
+});
+gsap.to(".bigName", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=200 50%",
+		scrub:"true",
+		toggleActions:"restart none reverse none"
+	},
+	x:1000
+});
+gsap.to(".line", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=200 50%",
+		scrub:"true",
+		toggleActions:"restart none reverse none"
+	},
+	x:-1000
+});
+gsap.to(".scroll", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=200 50%",
+		scrub:"true",
+		toggleActions:"restart none reverse none"
+	},
+	x:1000
+});
+gsap.to(".socials", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=200 50%",
+		scrub:"true",
+		toggleActions:"restart none none none"
+	},
+	x:500
+});
+gsap.to(".bottomSection", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 100%",
+		end:"+=200 50%",
+		scrub:"true",
+		toggleActions:"restart none none none"
+	},
+	x:-250
+});
+
+
+
+
 
 
 
