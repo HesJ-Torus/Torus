@@ -90,7 +90,7 @@ gsap.to(".scroll", {
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
-	x:1000
+	x:-1000
 });
 gsap.to(".socials", {
 	scrollTrigger:{
