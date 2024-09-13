@@ -189,7 +189,7 @@
  
  
  .contentSpace{
-	 min-height:30vh;
+	 min-height:0vh;
  }
  .contentHead{
 	 text-align:center;
@@ -207,7 +207,7 @@
 	 color:silver;
 	 font-size: 3rem;
 	 text-align:center;
-	 transform: translateY(40%);
+	 transform: translateY(80%);
  }
  .textLeft{
 	 min-width:40%;
@@ -235,6 +235,7 @@
 	width: 45%;
 	margin: 0px;
 	padding: 1rem;
+	transform: translateY(40%)
  } 
  
  .content2{
@@ -246,7 +247,7 @@
  } 
  .content3{
 	position:relative;
-	width: 70%;
+	width: 50%;
 	margin: 0px;
 	padding: 1rem;
 	float:right;
