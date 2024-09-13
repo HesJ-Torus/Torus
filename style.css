@@ -171,7 +171,7 @@
  .content{
 	 display: flex;
 	 flex-direction: column;
-	 padding: 2rem 3rem;
+	 padding: 0rem 3rem;
 	 background-color:white;
 	 justify-content: space-between;
 	 min-height: 100vh;
@@ -180,7 +180,7 @@
  .contentTwo{
 	 display: flex;
 	 flex-direction: column;
-	 padding: 2rem 3rem;
+	 padding: 0rem 3rem;
 	 background-color:black;
 	 justify-content: space-between;
 	 min-height: 100vh;
