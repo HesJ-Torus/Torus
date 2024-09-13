@@ -80,7 +80,7 @@ gsap.from(".contentHead",{
 	scrollTrigger:{
 		trigger:".content",
 		start:"-150 80%",
-		end:"+=0 30%",
+		end:"+=0 10%",
 		markers:true,
 		scrub:"true",
 		toggleActions:"restart none reverse none"
