@@ -80,7 +80,8 @@ gsap.from(".contentHead",{
 	scrollTrigger:{
 		trigger:".content",
 		start:"-150 80%",
-		end:"+=0 50%",
+		end:"+=0 30%",
+		markers:true,
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
@@ -93,7 +94,6 @@ gsap.to(".content1", {
 		trigger:".content1",
 		start:"top 95%",
 		end:"bottom 40%",
-		markers:true,
 		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
@@ -105,7 +105,6 @@ gsap.to(".content2", {
 		trigger:".content2",
 		start:"top 95%",
 		end:"bottom 40%",
-		markers:true,
 		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
