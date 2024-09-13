@@ -23,7 +23,8 @@ timeline.to(".imageWrap",{
 	duration: 1,
 }, 1).to(".imageWrap",{
 	rotation: 360,
-	duration: 1.5,
+	ease: "expo.out",
+	duration: 2.5,
 	repeat: -1,
 	repeatDelay: 5,
 }, 2.5);
@@ -33,25 +34,37 @@ gsap.registerPlugin(ScrollTrigger)
 gsap.to(".content", {
 	scrollTrigger:{
 		trigger:".content",
-		start:"80 80%",
-		end:"+=300 50%",
+		start:"0 80%",
+		end:"+=0 60%",
 		scrub:"true",
-		markers: true,
 		toggleActions:"restart none reverse none"
 	},
 	backgroundColor:"black",
 });
+
 gsap.to("main", {
 	scrollTrigger:{
 		trigger:".content",
-		start:"80 80%",
-		end:"+=300 50%",
+		start:"-150 80%",
+		end:"+=0 50%",
 		scrub:"true",
-		markers: true,
+		toggleActions:"restart none reverse none"
+	},
+	opacity:"0"
+});
+
+gsap.to(".mainAni", {
+	scrollTrigger:{
+		trigger:".content",
+		start:"0 80%",
+		end:"+=0 60%",
+		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
 	backgroundColor:"black"
 });
+
+
 gsap.to(".imageWrap", {
 	scrollTrigger:{
 		trigger:".content",
@@ -62,55 +75,41 @@ gsap.to(".imageWrap", {
 	},
 	bottom:"100%"
 });
-gsap.to(".bigName", {
+
+gsap.from(".contentHead",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"top 100%",
-		end:"+=200 50%",
+		start:"-150 80%",
+		end:"+=0 50%",
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
-	x:1000
+	opacity:"0",
+	fontSize: "6rem"
 });
-gsap.to(".line", {
+
+gsap.to(".content1", {
 	scrollTrigger:{
-		trigger:".content",
-		start:"top 100%",
-		end:"+=200 50%",
-		scrub:"true",
+		trigger:".content1",
+		start:"top 95%",
+		end:"bottom 40%",
+		markers:true,
+		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
-	x:-1000
+	
+	width:"65%"
 });
-gsap.to(".scroll", {
+gsap.to(".content2", {
 	scrollTrigger:{
-		trigger:".content",
-		start:"top 100%",
-		end:"+=200 50%",
-		scrub:"true",
+		trigger:".content2",
+		start:"top 95%",
+		end:"bottom 40%",
+		markers:true,
+		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
-	x:-1000
-});
-gsap.to(".socials", {
-	scrollTrigger:{
-		trigger:".content",
-		start:"top 100%",
-		end:"+=200 50%",
-		scrub:"true",
-		toggleActions:"restart none none none"
-	},
-	x:500
-});
-gsap.to(".bottomSection", {
-	scrollTrigger:{
-		trigger:".content",
-		start:"top 100%",
-		end:"+=200 50%",
-		scrub:"true",
-		toggleActions:"restart none none none"
-	},
-	x:-250
+	width:"65%",
 });
 
 
