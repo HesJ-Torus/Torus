@@ -81,34 +81,35 @@ gsap.from(".contentHead",{
 		trigger:".content",
 		start:"-150 80%",
 		end:"+=0 10%",
-		markers:true,
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
 	opacity:"0",
-	fontSize: "6rem"
+	fontSize: "6rem",
+	
 });
 
 gsap.to(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
-		start:"top 95%",
-		end:"bottom 40%",
-		scrub:1,
+		start:"150 100%",
+		end:"top 40%",
+		markers:true,
+		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
 	
-	width:"65%"
+	width:"60%"
 });
 gsap.to(".content2", {
 	scrollTrigger:{
 		trigger:".content2",
-		start:"top 95%",
-		end:"bottom 40%",
-		scrub:1,
+		start:"150 100%",
+		end:"top 40%",
+		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
-	width:"65%",
+	width:"60%",
 });
 
 

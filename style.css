@@ -177,6 +177,17 @@
 	 min-height: 100vh;
 	 width:100%;
  }
+ .contentTwo{
+	 display: flex;
+	 flex-direction: column;
+	 padding: 2rem 3rem;
+	 background-color:black;
+	 justify-content: space-between;
+	 min-height: 100vh;
+	 width:100%;
+ }
+ 
+ 
  .contentSpace{
 	 min-height:30vh;
  }
@@ -192,16 +203,33 @@
 	 justify-content: space-between;
  }
  .textRight{
+	 min-width:40%;
 	 color:silver;
 	 font-size: 3rem;
 	 text-align:center;
-	 transform: translateX(-50%)translateY(30%);
+	 transform: translateY(40%);
  }
  .textLeft{
+	 min-width:40%;
 	 color:silver;
 	 font-size: 3rem;
 	 text-align:center;
-	 transform: translateX(50%)translateY(10%);
+	 transform: translateY(50%);
+ }
+ .text20{
+	 min-height:100%;
+	 min-width:15%;
+	 color:silver;
+	 font-size: 3rem;
+	 text-align:center;
+	 transform: translateY(50%);
+	 
+ }
+ .textEnd{
+	 min-width:100%;
+	 color:silver;
+	 font-size: 3rem;
+	 text-align:center;
  }
  .content1{
 	width: 45%;
@@ -209,15 +237,27 @@
 	padding: 1rem;
  } 
  
- 
  .content2{
 	position:relative;
 	width: 45%;
 	margin: 0px;
 	padding: 1rem;
 	float:right;
-	transform:translateY(-40%);
  } 
+ .content3{
+	position:relative;
+	width: 70%;
+	margin: 0px;
+	padding: 1rem;
+	float:right;
+ } 
+ .content4{
+	position:relative;
+	width: 33%;
+	margin: 0px;
+	padding: 1rem;
+	float:right;
+ };
  
  
  
