@@ -232,7 +232,7 @@
 	 text-align:center;
  }
  .content1{
-	width: 45%;
+	width: 53%;
 	margin: 0px;
 	padding: 1rem;
 	transform: translateY(40%)
@@ -240,14 +240,14 @@
  
  .content2{
 	position:relative;
-	width: 45%;
+	width: 53%;
 	margin: 0px;
 	padding: 1rem;
 	float:right;
  } 
  .content3{
 	position:relative;
-	width: 50%;
+	width: 60%;
 	margin: 0px;
 	padding: 1rem;
 	float:right;
