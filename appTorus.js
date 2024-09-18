@@ -73,7 +73,7 @@ gsap.to(".imageWrap", {
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
-	bottom:"100%"
+	bottom:"100%",
 });
 
 gsap.from(".contentHead",{
@@ -81,7 +81,7 @@ gsap.from(".contentHead",{
 		trigger:".content",
 		start:"0 80%",
 		end:"+=0 10%",
-		scrub:true,
+		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
 	opacity:"0",
@@ -92,20 +92,23 @@ gsap.from(".contentHead",{
 gsap.to(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
-		start:"top 65%",
-		end:"top 40%",
-		scrub:true,
+		markers:true,
+		start:"center 65%",
+		end:"+=0 50%",
+		scrub:2,
 		toggleActions:"restart none reverse none",
 	},
-	
 	width:"100%"
 });
+
+
+
 gsap.to(".content2", {
 	scrollTrigger:{
 		trigger:".content2",
-		start:"top 65%",
-		end:"top 40%",
-		scrub:true,
+		start:"center 65%",
+		end:"+=0 50%",
+		scrub:2,
 		toggleActions:"restart none reverse none"
 	},
 	width:"100%",
@@ -113,9 +116,9 @@ gsap.to(".content2", {
 gsap.to(".content3", {
 	scrollTrigger:{
 		trigger:".content3",
-		start:"top 85%",
-		end:"top 60%",
-		scrub:true,
+		start:"center 65%",
+		end:"+=0 50%",
+		scrub:2,
 		toggleActions:"restart none reverse none"
 	},
 	width:"100%",
