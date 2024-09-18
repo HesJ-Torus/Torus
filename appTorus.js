@@ -92,10 +92,11 @@ gsap.from(".contentHead",{
 gsap.to(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
-		start:"top 60%",
-		end:"center 40%",
+		start:"top 85%",
+		end:"top 60%",
 		scrub:1,
-		toggleActions:"restart none reverse none"
+		toggleActions:"restart none reverse none",
+		markers: true,
 	},
 	
 	width:"60%"
@@ -103,8 +104,8 @@ gsap.to(".content1", {
 gsap.to(".content2", {
 	scrollTrigger:{
 		trigger:".content2",
-		start:"top 60%",
-		end:"center 40%",
+		start:"top 85%",
+		end:"top 60%",
 		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
@@ -113,8 +114,8 @@ gsap.to(".content2", {
 gsap.to(".content3", {
 	scrollTrigger:{
 		trigger:".content3",
-		start:"top 60%",
-		end:"center 40%",
+		start:"top 85%",
+		end:"top 60%",
 		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
