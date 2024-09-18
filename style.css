@@ -192,6 +192,7 @@
 	 flex-direction:row;
 	 min-width:100%;
 	 justify-content: space-between;
+	 padding:3rem 0;
  }
  .textRight{
 	 min-width:30%;

@@ -93,7 +93,7 @@ gsap.to(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
 		markers:true,
-		start:"center 65%",
+		start:"30px 65%",
 		end:"+=0 50%",
 		scrub:2,
 		toggleActions:"restart none reverse none",
