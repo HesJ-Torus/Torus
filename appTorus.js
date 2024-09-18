@@ -94,7 +94,6 @@ gsap.to(".content1", {
 		trigger:".content1",
 		start:"top 60%",
 		end:"center 40%",
-		markers:true,
 		scrub:1,
 		toggleActions:"restart none reverse none"
 	},
