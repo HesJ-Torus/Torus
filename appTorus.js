@@ -94,31 +94,31 @@ gsap.to(".content1", {
 		trigger:".content1",
 		start:"top 85%",
 		end:"top 60%",
-		scrub:1,
+		scrub:true,
 		toggleActions:"restart none reverse none",
 	},
 	
-	width:"60%"
+	width:"100%"
 });
 gsap.to(".content2", {
 	scrollTrigger:{
 		trigger:".content2",
 		start:"top 85%",
 		end:"top 60%",
-		scrub:1,
+		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
-	width:"60%",
+	width:"100%",
 });
 gsap.to(".content3", {
 	scrollTrigger:{
 		trigger:".content3",
 		start:"top 85%",
 		end:"top 60%",
-		scrub:1,
+		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
-	width:"70%",
+	width:"100%",
 });
 
 
