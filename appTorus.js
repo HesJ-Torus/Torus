@@ -79,9 +79,9 @@ gsap.to(".imageWrap", {
 gsap.from(".contentHead",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"-150 80%",
+		start:"0 80%",
 		end:"+=0 10%",
-		scrub:"true",
+		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
 	opacity:"0",
@@ -92,8 +92,8 @@ gsap.from(".contentHead",{
 gsap.to(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
-		start:"top 85%",
-		end:"top 60%",
+		start:"top 65%",
+		end:"top 40%",
 		scrub:true,
 		toggleActions:"restart none reverse none",
 	},
@@ -103,8 +103,8 @@ gsap.to(".content1", {
 gsap.to(".content2", {
 	scrollTrigger:{
 		trigger:".content2",
-		start:"top 85%",
-		end:"top 60%",
+		start:"top 65%",
+		end:"top 40%",
 		scrub:true,
 		toggleActions:"restart none reverse none"
 	},
