@@ -96,7 +96,6 @@ gsap.to(".content1", {
 		end:"top 60%",
 		scrub:1,
 		toggleActions:"restart none reverse none",
-		markers: true,
 	},
 	
 	width:"60%"
