@@ -1,5 +1,5 @@
 
-
+gsap.registerPlugin(ScrollTrigger)
 
 let timeline = gsap.timeline();
 
@@ -29,7 +29,7 @@ timeline.to(".imageWrap",{
 	repeatDelay: 5,
 }, 2.5);
 
-gsap.registerPlugin(ScrollTrigger) 
+
 
 gsap.to(".content", {
 	scrollTrigger:{
