@@ -81,7 +81,7 @@ gsap.from(".contentHead",{
 		trigger:".content",
 		start:"0 80%",
 		end:"+=0 10%",
-		toggleActions:"restart none none none"
+		toggleActions:"restart none reverse none"
 		
 	},
 	opacity:"0",
@@ -93,7 +93,7 @@ gsap.from(".textLeft",{
 		trigger:".textLeft",
 		start:"0 80%",
 		end:"+=0 10%",
-		toggleActions:"restart none none none"
+		toggleActions:"restart none reverse none"
 	},
 	opacity:"0",
 	fontSize: "2rem",}
@@ -104,7 +104,7 @@ gsap.from(".content1", {
 		trigger:".content1",
 		start:"100px 80%",
 		end:"+=0 10%",
-		toggleActions:"play none none none"
+		toggleActions:"restart none reverse none"
 	},
 	width:"70%",
 	opacity: "0"
