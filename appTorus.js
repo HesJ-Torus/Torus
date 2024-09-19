@@ -80,7 +80,8 @@ gsap.from(".contentHead",{
 	scrollTrigger:{
 		trigger:".content",
 		start:"0 80%",
-		end:"+=0 10%",
+		end:"+=0 40%",
+		scrub:2,
 		toggleActions:"restart none reverse none",
 		
 	},
@@ -92,7 +93,8 @@ gsap.from(".textLeft",{
 	scrollTrigger:{
 		trigger:".textLeft",
 		start:"0 80%",
-		end:"+=0 10%",
+		end:"+=0 40%",
+		scrub:2,
 		toggleActions:"restart none reverse none",
 	},
 	opacity:"0",
@@ -103,7 +105,8 @@ gsap.from(".content1", {
 	scrollTrigger:{
 		trigger:".content1",
 		start:"100px 80%",
-		end:"+=0 10%",
+		end:"+=0 60%",
+		scrub:2,
 		toggleActions:"restart none reverse none",
 	},
 	width:"70%",
@@ -179,7 +182,7 @@ gsap.from(".content3", {
 		toggleActions:"restart none reverse none",
 	},
 	width:"70%",
-	opacity: "0"
+	opacity: "0",
 });
 
 
