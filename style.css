@@ -175,109 +175,81 @@
 	 background-color:white;
 	 justify-content: space-between;
 	 width:100%;
+	 align-items:center;
+	 overflow:hidden;
  }
  
- .contentSpace{
-	 padding:10rem 0;
- }
- .contentHead{
+ .titanium{
 	 text-align:center;
 	 font-size: 10rem;
 	 color:silver;
-	 min-height:30vh;
+	 width:1000px;
+	 height:200px;
  }
- .contentHead2{
-	 text-align:center;
-	 font-size: 10rem;
+ .titaniumText{
+	 min-width:30%;
 	 color:silver;
-	 min-height:30vh;
- }
- .contentHead3{
+	 font-size: 3rem;
 	 text-align:center;
-	 font-size: 10rem;
-	 color:silver;
-	 min-height:30vh;
+	 width:1000px;
+	 height:200px;
  }
- .contentContainer{
+ .invLogo{
+	 width:130px;
+ }
+ .section1{
 	 display:flex;
-	 flex-direction:row;
-	 min-width:100%;
-	 justify-content: space-between;
-	 padding:0rem 0;
+	 align-items: center;
+	 justify-content: space-around;
+	 flex-wrap: wrap;
  }
- .textRight{
-	 min-width:30%;
+.section1Text{
 	 color:silver;
 	 font-size: 3rem;
-	 text-align:center;
- }
- .textRight2{
-	 min-width:30%;
-	 color:silver;
-	 font-size: 3rem;
-	 text-align:center;
- }
- .textLeft{
-	 min-width:30%;
-	 color:silver;
-	 font-size: 3rem;
-	 text-align:center;
- }
- .text20{
-	 min-height:100%;
-	 min-width:15%;
-	 color:silver;
-	 font-size: 3rem;
-	 text-align:center;
-	 transform: translateY(50%);
-	 
- }
- .textEnd{
-	 min-width:100%;
-	 color:silver;
-	 font-size: 3rem;
-	 text-align:center;
- }
- .content1{
-	display:block;
-	width: 90%;
-	margin: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
- } 
+	 text-align: center;
+	 width:500px;
+	 height:200px;
+}
+.section1Image{
+	width:1000px;
+}
  
- .content2{
-	display:block;
-	width: 90%;
-	margin: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
- } 
- .content3{
-	display:block;
-	width: 90%;
-	margin: 0px;
-	padding: 1rem;
-	margin-left: auto;
-	margin-right: auto;
- } 
- .content4{
-	position:relative;
-	width: 33%;
-	margin: 0px;
-	padding: 1rem;
-	float:right;
+ .section2{
+	 display:flex;
+	 align-items: center;
+	 justify-content: space-around;
+	 flex-wrap: wrap-reverse;
  }
- .60{
-	 width:80%;
+.section2Text{
+	 color:silver;
+	 font-size: 3rem;
+	 text-align: center;
+	 width:500px;
+	 height:200px;
+}
+.section2Image{
+	width:1000px
+}
+ 
+ .section3{
+	 align-items: center;
+	 overflow:hidden;
  }
- .base{
-	 min-height:40vh;
- }
+ .section3Text{
+	 color:silver;
+	 font-size: 3rem;
+	 text-align: center;
+	 width:100%;
+}
+ .section3Image{
+	width:100%;
+	max-width:1800px;
+}
+ 
+ 
+ 
+ 
+ 
  
  
  
