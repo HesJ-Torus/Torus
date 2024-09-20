@@ -154,7 +154,7 @@ gsap.from(".section3Image",{
 		trigger:".section3Text",
 		start:"top 80%",
 		end:"bottom 60%",
-		scrub:3,
+		scrub:2,
 	},
 	y:1000,
 });
