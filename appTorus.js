@@ -154,7 +154,6 @@ gsap.from(".section3Image",{
 		trigger:".section3Text",
 		start:"top 80%",
 		end:"bottom 60%",
-		markers:true,
 		scrub:3,
 	},
 	y:1000,
