@@ -9,7 +9,8 @@
 .page{
 	display: flex;
 	flex-direction:column;
-	padding: 3rem 14%;
+	padding: 3rem 0;
+	align-items:center;
 }
 #title {
 	font-size: 3rem;
@@ -21,24 +22,30 @@
 	font-weight: 500;
 	text-align: center;
 }
+.product{
+	width:100%;
+	max-width:1200px;
+	flex-wrap: wrap;
+	align-items:center;
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem 0rem;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+}
+.imgDiv{
+	width:100%;
+	max-width: 500px;
+}
 .image{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
-}
-.imgDiv{
-	min-height: 100px;
-	min-width: 200px;
-}
-.product{
-	display: grid;
-	grid-template-columns:auto 1fr;
-	justify-content: space-between;
-	padding: 1.5rem 0rem;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+	width: 100%;
+	max-width: 768px;
 }
 .item{
+	width:100%;
+	max-width:500px;
 	display: flex
 	flex-direction:column;
 	padding: 0rem 0rem;
@@ -51,6 +58,7 @@
 }
 .itemText {
 	font-size: 1.1rem;
+	font-weight: 600;
 	color: black;
 	padding: 0.5rem 0rem;
 }
@@ -106,6 +114,16 @@ padding: 0rem 1rem;
 			<div class="subtitle">
 				<p>All our premium titanium products and more <br><br><p>
 			</div>
+			
+			<div class="product">
+				<div class="imgDiv">
+					<img class="image" src="images/seatclamp.jpg">
+				</div>
+				<div class="item">
+					fhdjsak
+				</div>
+			</div>
+			
 			<div class="product"> <!seatclamp>
 				<div class="imgDiv">
 					<img class="image" src="images/seatclamp.jpg">
