@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" href="style.css">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<title> Product Page Template </title>
+<title> Titanium Seat Clamp </title>
 <link rel="icon" href="images/favicon.png">
 
 
@@ -30,11 +30,71 @@
 	padding: 2rem 2rem;
 }
 .description{
-	max-width:1200px;
-	text-align:center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:center;
+	max-width:1000px;
+	text-align:left;
 	width:100%;
-	padding: 2rem 2rem;
-	font-size: 1.5rem;
+	padding: 1rem 0rem;
+	font-size: 1.2rem;
+}
+.descriptionVert{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: reverse-wrap;
+	justify-content: space-around;
+	align-items:center;
+	max-width:1000px;
+	text-align:left;
+	width:100%;
+	padding: 1rem 0rem;
+	font-size: 1.2rem;
+}
+.descriptionImage{
+	width:100%;
+	max-width: 400px;
+}
+.descriptionTextHead{
+	font-size: 1.6rem;
+	width:100%;
+	max-width: 400px;
+	list-style-type:square;
+}
+.descriptionText{
+	width:100%;
+	max-width: 400px;
+	list-style-type:square;
+}
+.basketHead{
+	font-size: 1.6rem;
+	width:100%;
+	max-width: 400px;
+	list-style-type:square;
+	text-align:center;
+}
+.basket{
+	display: flex;
+	flex-direction: row;
+	font-size:1.5rem;
+	font-weight: 500;
+	color:black;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+}
+.basket a{
+	color: gray;
+}
+.basket a:hover{
+	color: green;
+}
+.size{
+	flex-grow:1;
+}
+.price{
+	padding: 0rem 1rem;
 }
 </style>
 </head>
@@ -62,21 +122,62 @@
 			
 			
 			<div class="title">
-				<h1>Product</h1>
+				<h2>Titanium Seat Clamp</h2>
+				
 			</div>
 
 			<div class="subtitle">
-				<p>Description<p>
+				<p><p>
 			
 			</div>
-			<div style="padding:2rem 0;">
+			<div style="padding:1rem 0;">
 			<img style="width: 80px;" src="images/pnglogo.png">
 			</div>
-			<img class="bannerImage" src="images/seatclampBanner.png">
+			<img class="bannerImage" src="images/seatclampBanner2.png">
 			<div class="description">
-				<p> description </p>
-				
+				<div>
+					<h4 class="descriptionTextHead">Seat Clamp</h4>
+					<p class="descriptionText"> A titanium cut-out seat clamp from Torus Bicycles. The Ti nut bar can rotate to allow sufficient clamping without the problem 
+					of bolt misalignment as the clamp closes on the seat tube!
+				</p>
+				</div>
+				<img class="descriptionImage" src="images/Ti-SC1-1.jpg">
 			</div>
+			<div class="descriptionVert">
+				<img class="descriptionImage" src="images/Ti-SC1-3.jpg">
+				<div>
+				<h4 class="descriptionTextHead">Features</h4>
+				<ul class="descriptionText">
+				<li>Ti-3Al-2.5V band and nut bar</li>
+				<li>Stainless Steel M6 bolt</li>
+				<li>Band height 13.5 mm&nbsp;flared to 18.5 mm at the front</li>
+				<li>Weight: &nbsp;31.8 mm 26 g, 34.9 mm 28g</li>
+				<li>Keep bolt head and thread lubricated - anti-seize grease recommended!!</li>
+				<li>Max torque 6 Nm</li>
+				</ul>
+				</div>
+			</div>
+			<h4 class="basketHead">Options</h4>
+			<div class="basket">
+				<p class="size">31.8 mm</p>
+				<p class="price"></p>
+				<a href=https://clee-cycles.co.uk/products/seat-clamp-titanium>
+					Buy now!<i class='bx bxs-cart'></i> 
+				</a>
+			</div>
+			<div class="basket">
+				<p class="size">34.9 mm</p>
+				<p class="price"></p>
+				<a href=https://clee-cycles.co.uk/products/seat-clamp-titanium>
+					Buy now!<i class='bx bxs-cart'></i> 
+				</a>
+			</div>
+			
+			<div class="description">
+				<img class="descriptionImage" src="images/Ti-SC1-4.jpg">
+				<img class="descriptionImage" src="images/Ti-SC1-5.jpg">
+			</div>
+			
 		</div>
 	<div class="bottomSection">
 		<p>
