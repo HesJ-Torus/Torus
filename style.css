@@ -146,14 +146,14 @@
 	 font-weight: 400;
 	 left: 50%;
 	 transform: translateX(-50%);
-	 bottom: 200px;
+	 bottom: 150px;
 	 height: 30px;
  }
  
  .line{
 	 position: absolute;
 	 width: 1px;
-	 height: 200px;
+	 height: 150px;
 	 left: 50%;
 	 transform: translate(-50%);
 	 bottom:0;
