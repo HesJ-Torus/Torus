@@ -187,7 +187,7 @@
  .titanium{
 	 text-align:center;
 	 font-size: 10rem;
-	 color:silver;
+	 color:white;
 	 width:1000px;
 	 height:200px;
  }
@@ -239,6 +239,7 @@
 	 width:500px;
 	 height:200px;
 }
+
 .section2Image{
 	width:1000px
 }

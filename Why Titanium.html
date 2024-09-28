@@ -25,11 +25,24 @@
 	max-width: 1200px;
 	width:100%
 }
+.wrap{
+	display: flex;
+	flex-direction: row;
+	max-width:1200px;
+	width:100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 .text{
 	font-size: 1.5rem;
 	text-align: left;
+	max-width: 600px;
+	padding-bottom:1rem;
+}
+.textWide{
+	font-size: 1.5rem;
+	text-align: left;
 	max-width: 1200px;
-	
 	padding-bottom:1rem;
 }
 .image{
@@ -72,20 +85,24 @@
 	
 	<div class="page">
 		<h1 id="title">Why Titanium</h1>
-		<div style="height:30px;"></div>
-		<p class="text">When it comes to cycling, the choice of frame material plays a critical role in performance,
+		
+		<p class="textWide">When it comes to cycling, the choice of frame material plays a critical role in performance,
 		durability, and ride quality.  While carbon fibre, steel and aluminium are popular frame materials, titanium stands out as the
 		ultimate choice for many cyclists seeking a balance of aesthetics, ride quality, performance and reliability.</p>
 		<img class="imageLogo" src="images/pnglogo.png">
 		<div style="height:50px;"></div>
+		
 		<h2 class="subtitle">Timeless Aesthetic</h2>
+		<div class="wrap">
 		<p class="text"> Our titanium frames are designed in the UK and are handcrafted from aerospace grade tubing,
 		with a high-level of craftsmanship.  The visually striking brushed-metal finish provides a timeless aesthetic
 		that will not age or be tarnished during use.</p>
 		<img class="image" src="images/SeatTube.webp">
+		</div>
 		<div style="height:80px;"></div>
 		
 		<h2 class="subtitle">Ride Quality</h2>
+		<div class="wrap">
 		<p class="text">Titanium is praised for its unique ride quality, which results from its ability to absorb vibrations 
 		and offer a smooth, comfortable ride, without sacrificing performance. Titanium is a metallic material with an ideal
 		balance of strength and weight. Due to its strength, titanium frames can be manufactured from thin-walled tubing,
@@ -93,18 +110,21 @@
 		chatter. At the same time, titanium is lightweight and maintains excellent power transfer, making it a top choice for 
 		riders seeking both comfort and performance.</p>
 		<img class="image" src="images/RearDropout.webp">
+		</div>
 		<div style="height:80px;"></div>
 		
 		<h2 class="subtitle">Built to Last</h2>
+		<div class="wrap">
 		<p class="text">Once you invest in a titanium frame, maintenance is minimal. Titanium is strong and does not corrode, 
 		so you won’t need to worry about paint chips, rust, or frame fatigue over time.  This makes it an excellent option for riders
 		who frequently ride in wet or humid environments, ensuring that the frame remains as strong and visually appealing as the day it
 		was built. Titanium frames offer peace of mind and long-term reliability.</p>
 		<img class="image" src="images/SideFrame.webp">
+		</div>
 		<div style="height:80px;"></div>
 		
 		<h2 class="subtitle">To summarise</h2>
-		<p class="text">While other frame materials have their advantages in specific riding scenarios, titanium offers the perfect 
+		<p class="textWide">While other frame materials have their advantages in specific riding scenarios, titanium offers the perfect 
 		combination of ride quality, performance, reliability and aesthetic appeal.  For those discerning riders looking for a lifelong 
 		riding companion, titanium is the material of choice.</p>
 	</div>
