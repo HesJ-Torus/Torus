@@ -6,12 +6,12 @@ let timeline = gsap.timeline();
 
 timeline.to(".imageWrap",{
 	height: "500px",
-	width: "15rem",
+	width: "17rem",
 	duration: 1,
 	ease: "power4.Out",
 }).to(".imageWrap",{
 	height: "300px",
-	width: "10rem",
+	width: "12rem",
 	duration: 1,
 	y: "0",
 	ease: "power4.Out",
