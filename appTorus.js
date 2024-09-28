@@ -29,7 +29,12 @@ timeline.to(".imageWrap",{
 	repeatDelay: 5,
 }, 2.5);
 
-
+function getYDistance(el) {
+	return(
+	window.innerHeight - document.querySelector(el).getBoundingClientRect().
+	top
+	);
+}
 
 gsap.to(".content", {
 	scrollTrigger:{
@@ -112,8 +117,8 @@ gsap.from(".section1Text",{
 gsap.from(".section1Image",{
 	scrollTrigger:{
 		trigger:".section1Text",
-		start:"top 100%",
-		end:"bottom 80%",
+		start:"bottom 90%",
+		end:"bottom 90%",
 		scrub:2,
 	},
 	x:1000,
@@ -132,8 +137,8 @@ gsap.from(".section2Text",{
 gsap.from(".section2Image",{
 	scrollTrigger:{
 		trigger:".section2Text",
-		start:"top 100%",
-		end:"bottom 80%",
+		start:"bottom 90%",
+		end:"bottom 90%",
 		scrub:2,
 	},
 	x:-1000,
@@ -156,14 +161,9 @@ gsap.from(".section3Image",{
 		end:"bottom 60%",
 		scrub:2,
 	},
-	y:1000,
+	y:500
 });
 
 
-function getYDistance(el) {
-	return(
-	window.innerHeight - document.querySelector(el).getBoundingClientRect().
-	top
-	);
-}
+
 

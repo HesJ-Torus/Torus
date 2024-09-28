@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: 'Eras ITC';
+  src: url('Eraslght.ttf');
+}
+
  *{
 	 padding:0;
 	 margin:0;
@@ -204,6 +209,7 @@
 	 align-items: center;
 	 justify-content: space-around;
 	 flex-wrap: wrap;
+	 overflow:hidden;
  }
 .section1Text{
 	 color:silver;
@@ -221,6 +227,7 @@
 	 align-items: center;
 	 justify-content: space-around;
 	 flex-wrap: wrap-reverse;
+	 overflow:hidden;
  }
 .section2Text{
 	 color:silver;
@@ -245,7 +252,7 @@
 }
  .section3Image{
 	width:100%;
-	max-width:1800px;
+	max-width:1200px;
 }
  
  
