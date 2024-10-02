@@ -183,16 +183,40 @@
 	 display:flex;
 	 max-width:1200px;
 	 width: 100%;
-	 position: relative;
-	 text-align: center;
+	 height:800px;
+	 justify-content:space-around;
  }
+
  .containerTitanium1{
 	 max-width:600px;
-	 max-height:800px;
-	 height:100%;
-	 justify-content: space-around;
-	 z-index:0;
+	 width: 100%;
+	 height:800px;
+	 transform: translateY(150px) translateX(100px);
+	 z-index:1;
  }
+.titaniumImage{
+	transform: translateX(-600px);
+	z-index:0;
+}
+.titanium1{
+	 text-align:center;
+	 font-size: 8rem;
+	 color:white;
+	 width:100%;
+
+ }
+.titaniumText1{
+	 min-width:100%;
+	 color:white;
+	 font-size: 1.8rem;
+	 text-align:center;
+	 padding-top: 1.2rem;
+ }
+.titaniumText1 a{
+	 color: white;
+	 text-decoration: underline;
+ }
+
  .titanium{
 	 text-align:center;
 	 font-size: 10rem;
