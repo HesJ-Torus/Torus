@@ -51,7 +51,6 @@
  nav{
 	 display: grid;
 	 grid-template-columns: 1fr auto 1fr;
-	 
  }
  nav ul{
 	 display:flex;
@@ -180,16 +179,30 @@
 	 align-items:center;
 	 overflow:hidden;
  }
- 
+ .containerTitanium{
+	 display:flex;
+	 max-width:1200px;
+	 width: 100%;
+	 position: relative;
+	 text-align: center;
+ }
+ .containerTitanium1{
+	 max-width:600px;
+	 max-height:800px;
+	 height:100%;
+	 justify-content: space-around;
+	 z-index:0;
+ }
  .titanium{
 	 text-align:center;
 	 font-size: 10rem;
-	 color:white;
-	 width:1000px;
 	 height:200px;
+	 color:white;
+	 width:100%;
+
  }
  .titaniumText{
-	 min-width:30%;
+	 min-width:100%;
 	 color:silver;
 	 font-size: 2.3rem;
 	 text-align:center;

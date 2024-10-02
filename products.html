@@ -22,6 +22,17 @@
 	font-weight: 500;
 	text-align: center;
 }
+
+.productNav a{
+	 display:inline-block;
+	 padding:2rem;
+	 color: black;
+	 font-weight: 400;
+	 font-size: 1.4rem;
+}
+.productNav a:hover{
+	color: gray;
+}
 .product{
 	width:100%;
 	max-width:1200px;
@@ -29,12 +40,11 @@
 	align-items:center;
 	display: flex;
 	justify-content: space-around;
-	padding: 5.5rem 0rem;
+	padding: 1.5rem 0rem;
 	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
 }
 .productVert{
 	width:100%;
-	
 	max-width:1200px;
 	flex-wrap: wrap-reverse;
 	align-items:center;
@@ -82,7 +92,7 @@
 	padding: 0.5rem 0rem;
 }
 .moreInfo a:hover{
-color: silver;
+	color: silver;
 }
 .basket{
 	display: flex;
@@ -105,7 +115,15 @@ flex-grow:1;
 .price{
 padding: 0rem 1rem;
 }
-
+.navDiv{
+	display: grid;
+	grid-template-columns:  auto ;
+}
+.navDiv ul{
+	display:flex;
+	 align-items: center;
+	 justify-items: center;
+}
 
 </style>
 
@@ -135,20 +153,31 @@ padding: 0rem 1rem;
 				<h1>Products</h1>
 			</div>
 			<div class="subtitle">
-				<p>All our premium titanium products and more <br><br><p>
+				<p>All our premium titanium products and more <p>
 			</div>
-			
+			<div class="navDiv">
+			<ul>
+					<li class="productNav">
+						<a href="/">Home </a>
+					</li>
+					<li class="productNav">
+						<a href="/">Home </a>
+					</li>
+					<li class="productNav">
+						<a href="/">Home </a>
+					</li>
+			</ul>
+			</div>
 			
 			
 			<div class="product"> <!seatclamp>
 				<div class="imgDiv">
-					<img class="image" src="images/seatclamp.jpg">
+					<img class="image" src="images/Ti-SC1-2.webp">
 				</div>
 				<div class="item">
 					<p class="itemTitle">Seat Clamp - Titanium</p>
 					<p class="itemText"> A titanium cut-out seat clamp from Torus Bicycles. Ti-3Al-2.5V band and nut bar Stainless Steel M6 bolt.<br>
-						Band height 13.5 mm flared to 18.5 mm at the front .<br>
-						Weight:  31.8 mm 26 g, 34.9 mm 28 g
+						
 						
 					</p>
 					<p class="moreInfo">
@@ -161,8 +190,7 @@ padding: 0rem 1rem;
 				<div class="item">
 					<p class="itemTitle">Ti In-line Mk2 Seat Post </p>
 					<p class="itemText"> The new Mk 2 Titanium in-line seatposts from Torus.
-					The clamp is a twin bolt design, with a knurled wheel on the front bolt for ease of adjustment. 
-					Plain gauge Ti-3Al-2.5V tube offers the perfect amount of comfort, flex and resilience.
+					Plain gauge <br> Ti-3Al-2.5V tube, twin bolt clamp.
 					<br><br>
 					<a href="/Seat Post Product Page">more information</a>
 				<br>
@@ -170,12 +198,12 @@ padding: 0rem 1rem;
 			
 				</div>
 				<div class="imgDiv">
-					<img class="image" src="images/seatpost.jpg">
+					<img class="image" src="images/Ti-SPL-6-1.webp">
 				</div>
 			</div>
 			<div class="product"> <!mk2 ti650>
 				<div class="imgDiv">
-					<img class="image" src="images/TI650MK2.jpg">
+					<img class="image" src="images/TI650MK2.webp">
 				</div>
 				<div class="item">
 					<p class="itemTitle">Torus Ti650 - Mk2 Frame </p>
@@ -199,7 +227,9 @@ padding: 0rem 1rem;
 				
 				<div class="item">
 					<p class="itemTitle">Torus Ti Road Winter Sport Frame </p>
-					<p class="itemText"> The Torus Ti Road Winter Sport is a sporting geometry road frame, similar to the Torus Ti Road, with the option of adding mudguards and a panier rack. It's comfortable enough to ride all day, in any weather - it's ideal for winter training, audax, sportives, or just riding around the countryside whenever you like!
+					<p class="itemText"> The Torus Ti Road Winter Sport is a sporting geometry road frame, similar to the Torus Ti Road, with the
+						option of adding mudguards and a panier rack. It's comfortable enough to ride all day, in any weather - it's ideal for winter 
+						training, audax, sportives, or just riding around the countryside whenever you like!
 					
 						In keeping with the Torus traditional styling, the Road Winter Sport has straight chainstays, external 1 1/8" head tube, threaded 
 						BB, external cables - just how we like them! 
@@ -221,12 +251,12 @@ padding: 0rem 1rem;
 					</div>
 				</div>
 				<div class="imgDiv">
-					<img class="image" src="images/winterFrame.jpg">
+					<img class="image" src="images/winterFrame.webp">
 				</div>
 			</div>
 			<div class="product"> <!Torus Titanium Flat Bars>
 				<div class="imgDiv">
-					<img class="image" src="images/bars.jpg">
+					<img class="image" src="images/bars.webp">
 				</div>
 				<div class="item">
 					<p class="itemTitle">Torus Titanium Flat Bars</p>
@@ -342,7 +372,7 @@ enough to ride hard and race!
 			</div>
 			<div class="product"> <!Ti29-Mk3>
 				<div class="imgDiv">
-					<img class="image" src="images/frameFront.jpg">
+					<img class="image" src="images/frameFront.webp">
 				</div>
 				<div class="item">
 					<p class="itemTitle">Ti29-Mk3</p>
@@ -408,12 +438,12 @@ enough to ride hard and race!
 					</div>
 				</div>
 				<div class="imgDiv">
-					<img class="image" src="images/cxob.jpg">
+					<img class="image" src="images/cxob.webp">
 				</div>
 			</div>
 			<div class="product"> <!Torus Stem>
 				<div class="imgDiv">
-					<img class="image" src="images/stem.jpg">
+					<img class="image" src="images/stem.webp">
 				</div>
 				<div class="item">
 					<p class="itemTitle">Torus Stem - Titanium Dual Logo</p>
