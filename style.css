@@ -32,6 +32,9 @@
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
+	 background-image: url("images/mainBackground.png");
+	 background-size: cover;
+	 background-position: center center;
  }
  
 .menu{
@@ -147,14 +150,15 @@
 	 font-weight: 400;
 	 left: 50%;
 	 transform: translateX(-50%);
-	 bottom: 150px;
+	 bottom: 15%;
 	 height: 30px;
+	 text-outline: 2px 2px white;
  }
  
  .line{
 	 position: absolute;
 	 width: 1px;
-	 height: 150px;
+	 height: 15%;
 	 left: 50%;
 	 transform: translate(-50%);
 	 bottom:0;
