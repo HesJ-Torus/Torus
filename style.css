@@ -92,6 +92,8 @@
  .bigName {
 	 position: relative;
 	 z-index: 1;
+	 padding-right: 1rem;
+	 padding-left: 1rem;
 	 Color: black;
 	 font-size: 7.5rem;
 	 font-weight: 1000;
