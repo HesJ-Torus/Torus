@@ -32,7 +32,7 @@
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
-	 background-image: url("images/mainBackground2.png");
+	 background-image: url("images/mainBackground5.png");
 	 background-size: cover;
 	 background-position: center center;
  }
@@ -157,7 +157,7 @@
  .line{
 	 position: absolute;
 	 width: 1px;
-	 height: 15%;
+	 height: %;
 	 left: 50%;
 	 transform: translate(-50%);
 	 bottom:0;
