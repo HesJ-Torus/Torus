@@ -173,7 +173,12 @@
 	 transform: translate(-50%);
 	 background-color: black;
  }
- 
+ .road{
+	 height:;
+	 background-image: url("images/roadBottom.png");
+	 background-size: cover;
+	 background-position: center center;
+ }
  .content{
 	 display: flex;
 	 flex-direction: column;
