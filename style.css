@@ -230,9 +230,9 @@
  .titanium{
 	 text-align:center;
 	 font-size: 7rem;
-	 height:;
 	 color:white;
-	 width:100%;
+	 width:80%;
+	 
 
  }
  .titaniumText{
@@ -251,9 +251,6 @@
  .invLogo{
 	 width:130px;
  }
-
- 
-
 
  
 
@@ -296,6 +293,11 @@
  .TiXCText2 a{
 	 background-color:;
 	 color:white;
+	 outline: 2px solid white;
+	 outline-offset: 5px;
+ }.TiXCText2 a:hover{
+	 background-color: white;
+	 color:black;
 	 outline: 2px solid white;
 	 outline-offset: 5px;
  }
@@ -350,6 +352,12 @@
 	 outline: 2px solid white;
 	 outline-offset: 5px;
  }
+ .TiGrText2 a:hover{
+	 background-color: white;
+	 color:black;
+	 outline: 2px solid white;
+	 outline-offset: 5px;
+ }
  .TiGrImage{
 	 position:relative;
 	 width:100%;
@@ -358,7 +366,61 @@
  }
  
  
- 
+ .TiCX{
+	 position:relative;
+	 display:flex;
+	 width:100%;
+	 max-width:1300px;
+	 padding: 0 5rem;
+ }
+ .TiCXText{
+	 position:absolute;
+	 top:20%;
+	 right:6rem;
+	 text-align:right;
+	 color:white;
+	 font-size: 2.5rem;
+	 width:30%;
+	 z-index:1;
+	 -webkit-text-stroke: 1px black;
+ }
+ .TiCXText2{
+	 position:absolute;
+	 bottom:20%;
+	 
+	 text-align:left;
+	 color:white;
+	 font-size: 2.5rem;
+	 width:30%;
+	 z-index:1;
+	 -webkit-text-stroke: 1px black;
+ }
+ .TiCXText h3{
+	 font-size:6rem;
+	 color:white;
+ }
+ .TiCXText p{
+	 background-color:;
+	 color:white;
+ }
+ .TiCXText2 a{
+	 background-color:;
+	 color:white;
+	 outline: 2px solid white;
+	 outline-offset: 5px;
+ }
+ .TiCXText2 a:hover{
+	 background-color: white;
+	 color:black;
+	 outline: 2px solid white;
+	 outline-offset: 5px;
+ }
+ .TiCXImage{
+	 position:relative;
+	 width:100%;
+	 transform:;
+	 z-index:0;
+ }
  
  
  
