@@ -102,7 +102,7 @@
 	 font-weight: 1000;
 	 text-align: center;
 	 line-height: 1;
-	 bottom: -50px;
+	 bottom: -30px;
  }
  
  .bottomSection{
@@ -189,52 +189,44 @@
 	 align-items:center;
 	 overflow:hidden;
  }
- .containerTitanium{
-	 display:flex;
-	 max-width:1200px;
-	 width: 100%;
-	 height:800px;
-	 justify-content:space-around;
- }
-
- .containerTitanium1{
-	 max-width:600px;
-	 width: 100%;
-	 height:800px;
-	 transform: translateY(150px) translateX(100px);
-	 z-index:1;
- }
-.titaniumImage{
-	transform: translateX(-600px);
-	z-index:0;
+ 
+.titaniumDiv{
+	position:relative;
+	display:flex;
+	max-width:1200px;
+	padding:0 5rem;
 }
-.titanium1{
-	 text-align:center;
-	 font-size: 8rem;
-	 color:white;
-	 width:100%;
-
- }
-.titaniumText1{
-	 min-width:100%;
-	 color:white;
-	 font-size: 1.8rem;
-	 text-align:center;
-	 padding-top: 1.2rem;
- }
-.titaniumText1 a{
-	 color: white;
-	 text-decoration: underline;
- }
-
  .titanium{
-	 text-align:center;
-	 font-size: 7rem;
-	 color:white;
-	 width:80%;
-	 
-
  }
+ .titanium1{
+	 position:absolute;
+	 text-align:center;
+	 font-size: 6rem;
+	 color:white;
+	 z-index:1;
+	 top:15%;
+ }
+ .titanium2{
+	 position:absolute;
+	 text-align:center;
+	 font-size: 6rem;
+	 color:white;
+	 z-index:1;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+ }
+ .titanium3{
+	 text-align:right;
+	 position:absolute;
+	 text-align:right;
+	 font-size: 6rem;
+	 color:white;
+	 z-index:1;
+	 right:5rem;
+	 bottom:15%;
+ }
+ 
  .titaniumText{
 	 min-width:100%;
 	 color:silver;
@@ -243,13 +235,17 @@
 	 width:1000px;
 	 height:200px;
 	 padding-top: 1.2rem;
+	 z-index:1;
  }
  .titaniumText a{
 	 color: white;
 	 text-decoration: underline;
  }
- .invLogo{
-	 width:130px;
+ .titaniumImage{
+	 position:relative;
+	 width:100%;
+	 max-width:px;
+	 z-index:0;
  }
 
  
@@ -267,6 +263,7 @@
 	 top:20%;
 	 color:white;
 	 font-size: 2vw;
+	 left:6rem;
 	 width:30%;
 	 z-index:1;
 
@@ -302,8 +299,8 @@
  }
  .TiXCImage{
 	 position:relative;
-	 width:90%;
-	 left:10%;
+	 width:100%;
+	 left:%;
 	 transform:;
 	 z-index:0;
  }
@@ -321,6 +318,7 @@
 	 position:absolute;
 	 top:20%;
 	 color:white;
+	 left:6rem;
 	 font-size: 2vw;
 	 width:30%;
 	 z-index:1;
@@ -375,9 +373,8 @@
  .TiCXText{
 	 position:absolute;
 	 top:20%;
-	 right:6rem;
-	 text-align:right;
 	 color:white;
+	 left:6rem;
 	 font-size: 2vw;
 	 width:30%;
 	 z-index:1;
@@ -385,8 +382,8 @@
  .TiCXText2{
 	 position:absolute;
 	 bottom:20%;
-	 
-	 text-align:left;
+	 right:6rem;
+	 text-align:right;
 	 color:white;
 	 font-size: 2vw;
 	 width:30%;
@@ -419,7 +416,9 @@
 	 z-index:0;
  }
  
- 
+ .invLogo{
+	 width:130px;
+ }
  
  
  

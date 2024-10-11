@@ -89,7 +89,7 @@ gsap.from(".titanium",{
 		
 		scrub:1,
 	},
-	fontSize:"4rem",
+	fontSize:"2rem",
 });
 
 gsap.from(".titaniumText",{
