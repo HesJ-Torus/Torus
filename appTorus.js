@@ -95,13 +95,19 @@ gsap.from(".titanium",{
 gsap.from(".titaniumText",{
 	scrollTrigger:{
 		trigger:".titaniumText",
-		start:"top 100%",
-		end:"bottom 80%",
-		
+		start:"top 90%",
+		end:"bottom 90%",
 		scrub:1,
 	},
 	fontSize:"2rem",
 })
+
+
+
+
+
+
+
 
 gsap.from(".section1Text",{
 	scrollTrigger:{

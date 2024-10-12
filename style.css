@@ -194,29 +194,34 @@ html {background-color: black}
 .titaniumDiv{
 	position:relative;
 	display:flex;
-	max-width:1200px;
+	max-width:1300px;
 	padding:0 5rem;
 }
  .titanium{
+	 
  }
  .titanium1{
 	 position:absolute;
-	 text-align:center;
+	 text-align:right;
 	 font-size: 6rem;
-	 left:0%;
+	 right:0%;
 	 color:white;
 	 z-index:1;
-	 top:10%;
+	 top:0%;
+	 left: 0%;
+	margin-right:5rem;
+	 
  }
  .titanium2{
 	 position:absolute;
-	 text-align:center;
+	 text-align:right;
 	 font-size: 6rem;
 	 color:white;
 	 z-index:1;
 	 top: 50%;
-	 left: 50%;
-	 transform: translate(-50%, -50%);
+	 right: 0%;
+	 margin-right:5rem;
+	 transform:translate(-0%,-50%);
  }
  .titanium3{
 	 text-align:right;
@@ -227,13 +232,13 @@ html {background-color: black}
 	 z-index:1;
 	 right:0%;
 	 margin-right:5rem;
-	 bottom:10%;
+	 bottom:0%;
  }
  
  .titaniumText{
 	 min-width:100%;
 	 color:silver;
-	 font-size: 2.3rem;
+	 font-size: 2.5rem;
 	 text-align:center;
 	 width:1000px;
 	 height:200px;
@@ -246,10 +251,11 @@ html {background-color: black}
  }
  .titaniumImage{
 	 position:relative;
-	 width:100%;
+	 width:80%;
 	 max-width:px;
 	 z-index:0;
  }
+
 
  
 
