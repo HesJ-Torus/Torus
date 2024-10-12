@@ -39,8 +39,8 @@ function getYDistance(el) {
 gsap.to(".content", {
 	scrollTrigger:{
 		trigger:".content",
-		start:"0 80%",
-		end:"+=0 60%",
+		start:"-50 80%",
+		end:"+=0 50%",
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
@@ -50,7 +50,7 @@ gsap.to(".content", {
 gsap.to("main", {
 	scrollTrigger:{
 		trigger:".content",
-		start:"-150 80%",
+		start:"-50 80%",
 		end:"+=0 50%",
 		scrub:"true",
 		toggleActions:"restart none reverse none"
@@ -78,7 +78,7 @@ gsap.to(".imageWrap", {
 		scrub:"true",
 		toggleActions:"restart none reverse none",
 	},
-	bottom:"100%",
+	bottom:"",
 });
 
 gsap.from(".titanium",{

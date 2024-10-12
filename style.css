@@ -1,5 +1,5 @@
 
-
+html {background-color: black}
 
  *{
 	 padding:0;
@@ -26,13 +26,13 @@
 	 position: relative;
 	 width:100%;
 	 min-height: 750px;
-	 height: 100vh; 
+	 height: 90vh; 
 	 overflow: hidden;
 	 padding: 1.5rem 3rem;
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
-	 background-image: url("images/mainBackground8.png");
+	 background-image: url("images/mainBackground9.png");
 	 background-size: cover;
 	 background-position: center center;
  }
@@ -202,9 +202,10 @@
 	 position:absolute;
 	 text-align:center;
 	 font-size: 6rem;
+	 left:0%;
 	 color:white;
 	 z-index:1;
-	 top:15%;
+	 top:10%;
  }
  .titanium2{
 	 position:absolute;
@@ -223,8 +224,9 @@
 	 font-size: 6rem;
 	 color:white;
 	 z-index:1;
-	 right:5rem;
-	 bottom:15%;
+	 right:0%;
+	 margin-right:5rem;
+	 bottom:10%;
  }
  
  .titaniumText{
