@@ -11,7 +11,7 @@ timeline.to(".imageWrap",{
 	ease: "power4.Out",
 }).to(".imageWrap",{
 	height: "300px",
-	width: "12rem",
+	width: "13rem",
 	duration: 1,
 	y: "0",
 	ease: "power4.Out",
@@ -70,16 +70,7 @@ gsap.to(".mainAni", {
 });
 
 
-gsap.to(".imageWrap", {
-	scrollTrigger:{
-		trigger:".content",
-		start:"top 100%",
-		end:"+=300 50%",
-		scrub:"true",
-		toggleActions:"restart none reverse none",
-	},
-	bottom:"",
-});
+
 
 gsap.from(".titanium",{
 	scrollTrigger:{
@@ -102,7 +93,18 @@ gsap.from(".titaniumText",{
 	fontSize:"2rem",
 })
 
+function onHover()
+{
+    $("#GrImage").attr('src', 'images/Ti-GrBack.webp');
+}
 
+function offHover()
+{
+    $("#GrImage").attr('src', 'images/Ti-Gr.webp');
+}
+
+		
+		
 
 
 

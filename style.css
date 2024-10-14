@@ -35,7 +35,7 @@ html {background-color: black}
 	 background-image: url("images/mainBackground9.png");
 	 background-size: cover;
 	 background-position: center center;
-	 padding-bottom:6rem;
+	 padding-bottom:10vh;
  }
  
 .menu{
@@ -84,7 +84,7 @@ html {background-color: black}
 	 width:0rem;
 	 max-width: 1000px;
 	 height: 0px;
-	 bottom: 50%;
+	 bottom: 55%;
 	 left: 50%;
 	 transform: translateX(-50%) translateY(50%);
 	 background-image: url(images/favicon.png);
@@ -110,6 +110,7 @@ html {background-color: black}
 	 display: flex;
 	 justify-content: space-between;
 	 align-items:center;
+	 bottom:50px;
  }
  .bottomSection p {
 	 color: black;
@@ -313,6 +314,7 @@ html {background-color: black}
 	 transform:;
 	 z-index:0;
  }
+
  
  
  
@@ -365,6 +367,13 @@ html {background-color: black}
 	 outline-offset: 5px;
  }
  .TiGrImage{
+	 position:relative;
+	 width:100%;
+	 transform:;
+	 z-index:0;
+	 
+ }
+ .TiGrImage:hover{
 	 position:relative;
 	 width:100%;
 	 transform:;
