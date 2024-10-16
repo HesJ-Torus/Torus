@@ -46,6 +46,15 @@ html {background-color: white}
 	 align-items: center;
 	 justify-items: center;
  }
+ .navImg{
+	 height:100%;
+ }
+ .navImg1{
+	 display:block;
+	 margin-top:auto;
+	 margin-bottom:auto;
+ }
+ 
  .navLink a{
 	 display:inline-block;
 	 padding:2rem;
