@@ -69,108 +69,47 @@ gsap.to(".mainAni", {
 	backgroundColor:"black"
 });
 
-
-
-
-gsap.from(".titanium",{
-	scrollTrigger:{
-		trigger:".titanium",
-		start:"top 100%",
-		end:"bottom 80%",
-		
-		scrub:1,
-	},
-	fontSize:"2rem",
-});
-
 gsap.from(".titaniumText",{
 	scrollTrigger:{
 		trigger:".titaniumText",
 		start:"top 90%",
-		end:"bottom 90%",
-		scrub:1,
 	},
 	fontSize:"2rem",
 })
 
-function onHover()
-{
-    $("#GrImage").attr('src', 'images/Ti-GrBack.webp');
-}
-
-function offHover()
-{
-    $("#GrImage").attr('src', 'images/Ti-Gr.webp');
-}
-
-		
-		
-
-
-
-
-
-
-gsap.from(".section1Text",{
+gsap.from(".titanium1",{
 	scrollTrigger:{
-		trigger:".section1Text",
+		trigger:".titanium1",
 		start:"top 100%",
 		end:"bottom 80%",
-		
-		scrub:1,
+		duration:1,
 	},
-	fontSize:"1.5rem",
-});
+	left:"0%",
+})
 
-gsap.from(".section1Image",{
+gsap.from(".titanium2",{
 	scrollTrigger:{
-		trigger:".section1Text",
-		start:"bottom 90%",
-		end:"bottom 90%",
-		scrub:2,
-	},
-	x:1000,
-});
-
-gsap.from(".section2Text",{
-	scrollTrigger:{
-		trigger:".section2Text",
+		trigger:".titanium2",
 		start:"top 100%",
 		end:"bottom 80%",
-		scrub:1,
+		duration:1,
 	},
-	fontSize:"1.5rem",
-});
+	
+	left:"0%",
+})
 
-gsap.from(".section2Image",{
+gsap.from(".titanium3",{
 	scrollTrigger:{
-		trigger:".section2Text",
-		start:"bottom 90%",
-		end:"bottom 90%",
-		scrub:2,
-	},
-	x:-1000,
-});
-
-gsap.from(".section3Text",{
-	scrollTrigger:{
-		trigger:".section3Text",
+		trigger:".titanium3",
 		start:"top 100%",
 		end:"bottom 80%",
-		scrub:1,
+		duration:1,
 	},
-	fontSize:"1.5rem",
-});
+	
+	left:"0%",
+})
 
-gsap.from(".section3Image",{
-	scrollTrigger:{
-		trigger:".section3Text",
-		start:"top 80%",
-		end:"bottom 60%",
-		scrub:2,
-	},
-	y:500
-});
+
 
 
 

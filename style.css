@@ -192,72 +192,111 @@ html {background-color: black}
 	 overflow:hidden;
  }
  
-.titaniumDiv{
-	position:relative;
-	display:flex;
-	max-width:1300px;
-	padding:0 5rem;
+ 
+.titanium{
+	
 }
- .titanium{
-	 
- }
- .titanium1{
-	 position:absolute;
-	 text-align:right;
-	 font-size: 6rem;
-	 right:0%;
+.titaniumHead{
+	 min-width:100%;
 	 color:white;
-	 z-index:1;
-	 top:0%;
-	 left: 0%;
-	margin-right:5rem;
-	 
- }
- .titanium2{
-	 position:absolute;
-	 text-align:right;
-	 font-size: 6rem;
-	 color:white;
-	 z-index:1;
-	 top: 50%;
-	 right: 0%;
-	 margin-right:5rem;
-	 transform:translate(-0%,-50%);
- }
- .titanium3{
-	 text-align:right;
-	 position:absolute;
-	 text-align:right;
-	 font-size: 6rem;
-	 color:white;
-	 z-index:1;
-	 right:0%;
-	 margin-right:5rem;
-	 bottom:0%;
- }
+	 font-size: 5rem;
+	 text-align:center;
+	 width:1000px;
+	 padding-top: 1.2rem;
+}
  
  .titaniumText{
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:space-around;
 	 min-width:100%;
+	 margin:auto;
 	 color:silver;
 	 font-size: 2.5rem;
 	 text-align:center;
 	 width:1000px;
-	 height:200px;
-	 padding-top: 1.2rem;
-	 z-index:1;
+	 height:180px;
  }
  .titaniumText a{
 	 color: white;
 	 text-decoration: underline;
  }
- .titaniumImage{
-	 position:relative;
-	 width:80%;
-	 max-width:px;
-	 z-index:0;
+ 
+ .disciplineHead{
+	 min-width:100%;
+	 color:white;
+	 font-size: 5rem;
+	 text-align:center;
+	 width:1000px;
+	 padding-top: 1.2rem;
+}
+ 
+ .disciplineText{
+	 min-width:100%;
+	 color:silver;
+	 font-size: 2.5rem;
+	 text-align:center;
+	 width:1000px;
+	 height:180px;
+ }
+ .disciplineText a{
+	 color: white;
+	 text-decoration: underline;
+ }
+ .framesHead{
+	 min-width:100%;
+	 color:white;
+	 font-size: 5rem;
+	 text-align:center;
+	 width:1000px;
+	 padding-top: 1.2rem;
+}
+ 
+ .framesText{
+	 min-width:100%;
+	 color:silver;
+	 font-size: 2.5rem;
+	 text-align:center;
+	 width:1000px;
+	 height:180px;
+ }
+ .framesText a{
+	 color: white;
+	 text-decoration: underline;
+ }
+ 
+ .frame1{
+	 display:flex;
+	 width:100%;
+	 max-width:1300px;
+	 height:300px;
+	 align-items:center;
+	 justify-content:center;
  }
 
+  .frame1Text{
+	 text-align:center;
+	 color:white;
+	 font-size:2rem;
+	 z-index:1;
+ }
 
+ .frame2{
+	 display:flex;
+	 width:100%;
+	 max-width:1300px;
+	 height:300px;
+	 align-items:center;
+	 justify-content:center;
+ }
+
+  .frame2Text{
+	 
+	 text-align:center;
+	 color:white;
+	 font-size:2rem;
+	 z-index:1;
+ }
  
 
 
