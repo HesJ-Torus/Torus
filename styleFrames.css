@@ -27,7 +27,7 @@ html {background-color: white}
 	display: flex;
 	background-color:black;
 	width: 100%;
-	padding: 1.5rem 3rem;
+	padding: 0.5rem 3rem;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -137,6 +137,13 @@ html {background-color: white}
 	 font-weight:700;
 	 padding:1rem 0;
  }
+ .content h2{
+	 position:relative;
+	 font-size: 4rem;
+	 color: #424141;
+	 font-weight:500;
+	 padding:1rem 0;
+ }
  .content h3{
 	 position:relative;
 	 font-size: 2rem;
@@ -146,14 +153,11 @@ html {background-color: white}
  .headingBanner{
 	 position:relative;
 	 width:100%;
-	 height:400px;
+	 height:250px;
 	 align-items:center;
 	 max-width:1300px;
 	 overflow:hidden;
 	 margin:1rem 0;
-	 background-image:url("images/Ti-CX.web");
-	 background-repeat: no-repeat;
-	 background-position: center center;
  }
  .headingBanner h1{
 	 position:relative;
@@ -178,5 +182,62 @@ html {background-color: white}
 	 top:50%;
 	 transform:translateY(-50%) translatex(-0%);
 	 right:10%;
+ }
+ 
+ .contentWrap{
+	 display:flex;
+	 flex-wrap:wrap;
+	 max-width:1700px;
+	 width:100%;
+	 margin: 1rem 0rem;
+	 justify-content:center;
+ }
+ 
+ .productInfo{
 	 
+	 width:100%;
+ }
+ 
+ .productInfo p{
+	 font-size:2rem;
+ }
+ 
+ .imageCollection{
+	 position:relative;
+	 display:flex;
+	 flex-direction:column;
+	 align-items: center;
+	 justify-content:space-around;
+	 max-width:1100px;
+	 width:100%;
+ }
+ .imageContainer{
+	 position:relative;
+	 max-width:1000px;
+	 width:100%;
+	 height:650px;
+	 border:1px solid black;
+	 vertical-align: middle;
+	 text-align:center;
+} 
+ .containedImage{
+	 max-height: 100%;
+     max-width: 100%;
+     width: auto;
+     height: auto;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+ }
+ .imageSelect{
+	 position:relative;
+	 display:flex;
+	 flex-wrap:wrap;
+ }
+ .imageSelect img{
+	 width:100px;
+	 margin:5px 10px;
  }
