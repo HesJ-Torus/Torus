@@ -84,7 +84,7 @@ html {background-color: white}
 	 width:0rem;
 	 max-width: 1000px;
 	 height: 0px;
-	 bottom: 50%;
+	 bottom: 52%;
 	 left: 50%;
 	 transform: translateX(-50%) translateY(50%);
 	 background-image: url(images/favicon.png);
@@ -199,8 +199,73 @@ html {background-color: white}
  }
  
  
-.titanium{
-	
+.titaniumHeading{
+	display:flex;
+	justify-content:space-around;
+	color:white;
+	width:100%;
+	padding:0 0;
+}
+.titaniumHeading h1{
+	font-size:10rem;
+}
+.titaniumContent{
+	display:flex;
+	width:100%;
+	align-items:center;
+}
+.titaniumImage{
+	position:relative;
+	width:60%;
+	height:60%;
+}
+.titaniumIntro{
+	flex-grow:1;
+	color:white;
+	margin:auto;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+}
+.titaniumIntro h1{
+	font-size:9rem;
+}
+.titaniumIntro h2{
+	font-size:6rem;
+}
+.titaniumIntro h3{
+	font-size:4rem;
+}
+.titaniumIntro h4{
+	font-size:3rem;
+}
+.titaniumIntro p{
+	font-size:2rem;
+}
+.introLine1{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	width:80%;
+}
+.introline2{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+@media (max-width: 1150px) {
+	.titaniumContent{
+		flex-wrap:wrap;
+	}
+	.titaniumImage{
+		width:100%;
+		height:100%;
+	}
+	.titaniumIntro{
+		padding:0 5rem;
+	}
 }
 .titaniumHead{
 	 min-width:100%;
