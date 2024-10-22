@@ -180,7 +180,9 @@ html {background-color: white}
 	.imageWrap{
 		bottom: 55%;
 	}
-	
+	.navLink a{
+		font-size: 3rem;
+	}
 }
 
 
