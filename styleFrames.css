@@ -27,7 +27,7 @@ html {background-color: white}
 	display: flex;
 	background-color:black;
 	width: 100%;
-	padding: 0.5rem 3rem;
+	padding: 1rem 3rem;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -194,6 +194,7 @@ html {background-color: white}
 	 justify-content:center;
  }
  
+ /*images*/
  
  .imageCollection{
 	 position:relative;
@@ -232,20 +233,46 @@ html {background-color: white}
  .imageSelect img{
 	 width:100px;
 	 margin:5px 10px;
+	 cursor: pointer;
  }
- 
+ /*sideInfo*/
  .productInfo{
 	 min-width:35%;
 	 padding:0 1rem ;
  }
  .productInfo h3{
-	 font-size:2rem;
+	 font-size:2.2rem;
 	 font-weight:500;
 	 color: #424141;
  }
  .productInfo p{
-	 font-size:1.1rem;
+	 font-size:1.2rem;
 	 padding:1rem 0;
+ }
+ /*bottominfo*/
+ .infoPages{
+	 display:flex;
+	 flex-direction:column;
+	 background-color:#cdcfd1;
+	 min-height:30vh;
+	 width:100%;
+	 padding: 3rem;
+ }
+ .pagesMenu{
+	 display:flex;
+	 margin:0 auto;
+ }
+ .pagesMenu h3{
+	 padding:0 1rem;
+	 font-size: 2rem;
+	 font-weight:600;
+	 cursor: pointer;
+	 border-bottom: 2px solid;
+     margin-bottom: -1px;
+	 color: #424141;
+ }
+ .pagesMenu h3:hover{
+	 color: green;
  }
  
  
@@ -262,6 +289,9 @@ html {background-color: white}
 		 width:100%;
       }
 	  .productInfo h3{
-		  display:none;
+		 display:none;
+	  }
+	  .pagesMenu h3{
+		 font-size: 1.4rem;
 	  }
 }
