@@ -37,6 +37,8 @@ html {background-color: white}
 	flex-grow:1;
 }
  
+ /*NAV MENU*/
+ 
  nav{
 	 display: grid;
 	 grid-template-columns: 1fr auto 1fr;
@@ -83,7 +85,7 @@ html {background-color: white}
  }
  
  
- 
+ /*Bottom bar*/
  
  .bottomSection{
 	 display: flex;
@@ -123,6 +125,9 @@ html {background-color: white}
  .socials a:hover{
 	 color: gray;
  }
+ 
+ /*content*/
+ 
  .content {
 	 position:relative;
 	 display:flex;
@@ -131,24 +136,13 @@ html {background-color: white}
 	 min-height: 100vh;
 	 align-items:center;
  }
- .content h1{
-	 position:relative;
-	 font-size: 5rem;
-	 font-weight:700;
-	 padding:1rem 0;
- }
  .content h2{
+	 display:none;
 	 position:relative;
-	 font-size: 4rem;
+	 font-size: 3rem;
 	 color: #424141;
 	 font-weight:500;
-	 padding:1rem 0;
- }
- .content h3{
-	 position:relative;
-	 font-size: 2rem;
-	 font-weight:400;
-	 padding:1rem 0;
+	 padding:0rem 0;
  }
  .headingBanner{
 	 position:relative;
@@ -158,14 +152,21 @@ html {background-color: white}
 	 max-width:1300px;
 	 overflow:hidden;
 	 margin:1rem 0;
+	 
  }
  .headingBanner h1{
 	 position:relative;
-	 color:white
+	 color:white;
+	 font-size: 5rem;
+	 font-weight:700;
+	 padding:1rem 0;
  }
  .headingBanner h3{
 	 position:relative;
-	 color:white
+	 color:white;
+	 font-size: 2rem;
+	 font-weight:400;
+	 padding:1rem 0;
  }
  .headingImage{
     position: absolute;
@@ -175,6 +176,7 @@ html {background-color: white}
     right: -9999px;
     margin: auto;
 	width:100%;
+	padding:0 2rem;
  }
  .headingText{
 	 position: absolute;
@@ -183,24 +185,15 @@ html {background-color: white}
 	 transform:translateY(-50%) translatex(-0%);
 	 right:10%;
  }
- 
+  
  .contentWrap{
 	 display:flex;
-	 flex-wrap:wrap;
 	 max-width:1700px;
 	 width:100%;
 	 margin: 1rem 0rem;
 	 justify-content:center;
  }
  
- .productInfo{
-	 
-	 width:100%;
- }
- 
- .productInfo p{
-	 font-size:2rem;
- }
  
  .imageCollection{
 	 position:relative;
@@ -216,7 +209,6 @@ html {background-color: white}
 	 max-width:1000px;
 	 width:100%;
 	 height:650px;
-	 border:1px solid black;
 	 vertical-align: middle;
 	 text-align:center;
 } 
@@ -241,3 +233,35 @@ html {background-color: white}
 	 width:100px;
 	 margin:5px 10px;
  }
+ 
+ .productInfo{
+	 min-width:35%;
+	 padding:0 1rem ;
+ }
+ .productInfo h3{
+	 font-size:2rem;
+	 font-weight:500;
+	 color: #424141;
+ }
+ .productInfo p{
+	 font-size:1.1rem;
+	 padding:1rem 0;
+ }
+ 
+ 
+ @media (max-width: 1150px) {
+     .content h2{
+		 display:block;
+		 width:100%;
+		 text-align:left;
+	  }
+	  .contentWrap{
+		  flex-wrap:wrap;
+	  }
+	 .productInfo{
+		 width:100%;
+      }
+	  .productInfo h3{
+		  display:none;
+	  }
+}
