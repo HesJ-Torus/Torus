@@ -77,14 +77,91 @@ ScrollTrigger.create({
 	scrub:true,
 });
 
+
 gsap.from("#title1",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"top top",
-		end:"+=1000",
-		scrub:true,
+		trigger:".content",
+		id:"1",
+		start:"top 30",
+		end:"+500 top",
+		scrub:2,
+		markers:true,
 	},
-	y:1000,
+	y: 1000,
+})
+gsap.from("#title2",{
+	scrollTrigger:{
+		trigger:".content",
+		id:"2",
+		start:"170 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title3",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"70 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title4",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 130",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title5",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"120 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title6",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"top 80",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title7",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"230 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from("#title8",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"20 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 1000,
+})
+gsap.from(".titaniumImageContainer",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"300 top",
+		end:"+=500",
+		scrub:2,
+	},
+	y: 50,
+	height:"0px",
 })
 
 
