@@ -197,7 +197,9 @@ html {background-color: white}
 	 align-items:center;
 	 overflow:hidden;
  }
- 
+ .titaniumPin{
+	 max-width:100%;
+ }
  
 .titaniumHeading{
 	display:flex;
@@ -230,19 +232,19 @@ html {background-color: white}
 	justify-content:space-between;
 }
 .titaniumIntro h1{
-	font-size:9rem;
+	font-size:7vw;
 }
 .titaniumIntro h2{
-	font-size:6rem;
+	font-size:5vw;
 }
 .titaniumIntro h3{
-	font-size:4rem;
+	font-size:3vw;
 }
 .titaniumIntro h4{
-	font-size:3rem;
+	font-size:2.5vw;
 }
 .titaniumIntro p{
-	font-size:2rem;
+	font-size:1.5vw;
 }
 .introLine1{
 	display:flex;
@@ -266,6 +268,21 @@ html {background-color: white}
 	.titaniumIntro{
 		padding:0 5rem;
 	}
+	.titaniumIntro h1{
+	font-size:9rem;
+}
+.titaniumIntro h2{
+	font-size:6rem;
+}
+.titaniumIntro h3{
+	font-size:4rem;
+}
+.titaniumIntro h4{
+	font-size:3rem;
+}
+.titaniumIntro p{
+	font-size:2rem;
+}
 }
 .titaniumHead{
 	 min-width:100%;

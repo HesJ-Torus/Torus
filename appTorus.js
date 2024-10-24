@@ -69,45 +69,26 @@ gsap.to(".mainAni", {
 	backgroundColor:"black"
 });
 
-gsap.from(".titaniumText",{
+ScrollTrigger.create({
+	trigger:".titaniumPin",
+	start:"top top",
+	end:"+=1000",
+	pin:true,
+	scrub:true,
+});
+
+gsap.from("#title1",{
 	scrollTrigger:{
-		trigger:".titaniumText",
-		start:"top 90%",
+		trigger:".titaniumPin",
+		start:"top top",
+		end:"+=1000",
+		scrub:true,
 	},
-	fontSize:"2rem",
+	y:1000,
 })
 
-gsap.from(".titanium1",{
-	scrollTrigger:{
-		trigger:".titanium1",
-		start:"top 100%",
-		end:"bottom 80%",
-		duration:1,
-	},
-	left:"0%",
-})
 
-gsap.from(".titanium2",{
-	scrollTrigger:{
-		trigger:".titanium2",
-		start:"top 100%",
-		end:"bottom 80%",
-		duration:1,
-	},
-	
-	left:"0%",
-})
 
-gsap.from(".titanium3",{
-	scrollTrigger:{
-		trigger:".titanium3",
-		start:"top 100%",
-		end:"bottom 80%",
-		duration:1,
-	},
-	
-	left:"0%",
-})
 
 
 
