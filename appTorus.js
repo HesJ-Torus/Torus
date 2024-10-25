@@ -85,9 +85,8 @@ gsap.from("#title1",{
 		start:"top 30",
 		end:"+500 top",
 		scrub:2,
-		markers:true,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title2",{
 	scrollTrigger:{
@@ -97,7 +96,7 @@ gsap.from("#title2",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title3",{
 	scrollTrigger:{
@@ -106,7 +105,7 @@ gsap.from("#title3",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title4",{
 	scrollTrigger:{
@@ -115,7 +114,7 @@ gsap.from("#title4",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title5",{
 	scrollTrigger:{
@@ -124,7 +123,7 @@ gsap.from("#title5",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title6",{
 	scrollTrigger:{
@@ -133,7 +132,7 @@ gsap.from("#title6",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title7",{
 	scrollTrigger:{
@@ -142,7 +141,7 @@ gsap.from("#title7",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
 })
 gsap.from("#title8",{
 	scrollTrigger:{
@@ -151,17 +150,26 @@ gsap.from("#title8",{
 		end:"+=500",
 		scrub:2,
 	},
-	y: 1000,
+	y: () => window.innerHeight - 40,
+})
+gsap.from(".titaniumImage",{
+	scrollTrigger:{
+		trigger:".content",
+		start:"300 top",
+		end:"+=500",
+		scrub:1,
+	},
+	yPercent:-100,
 })
 gsap.from(".titaniumImageContainer",{
 	scrollTrigger:{
 		trigger:".content",
 		start:"300 top",
 		end:"+=500",
-		scrub:2,
+		scrub:1,
 	},
-	y: 50,
-	height:"0px",
+	yPercent:100,
+	y:100,
 })
 
 

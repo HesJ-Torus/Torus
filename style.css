@@ -233,8 +233,8 @@ html {background-color: white}
 .titaniumImageContainer{
 	position:relative;
 	width:60%;
-	height:60%;
 	overflow:hidden;
+	
 }
 .titaniumImage{
 	width:100%;
