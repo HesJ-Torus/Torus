@@ -81,10 +81,11 @@ ScrollTrigger.create({
 gsap.from("#title1",{
 	scrollTrigger:{
 		trigger:".content",
-		id:"1",
-		start:"top top",
-		end:"+500 top",
+		id:"2",
+		start:"225 top",
+		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
@@ -92,36 +93,40 @@ gsap.from("#title2",{
 	scrollTrigger:{
 		trigger:".content",
 		id:"2",
-		start:"200 top",
+		start:"425 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
 gsap.from("#title3",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"90 top",
+		start:"600 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
 gsap.from("#title4",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"top top",
+		start:"75 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
 gsap.from("#title5",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"150 top",
+		start:"500 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
@@ -131,24 +136,28 @@ gsap.from("#title6",{
 		start:"top top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
 gsap.from("#title7",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"270 top",
+		start:"550 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
 gsap.from("#title8",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"60 top",
+		ease: "power3.out",
+		start:"150 top",
 		end:"+=500",
 		scrub:2,
+		ease: "power3.out",
 	},
 	y: () => window.innerHeight - 40,
 })
@@ -158,6 +167,7 @@ gsap.from(".titaniumImage",{
 		start:"200 top",
 		end:"+=500",
 		scrub:1,
+		ease: "power3.out",
 	},
 	yPercent:-100,
 })
@@ -167,6 +177,7 @@ gsap.from(".titaniumImageContainer",{
 		start:"200 top",
 		end:"+=500",
 		scrub:1,
+		ease: "power3.out",
 	},
 	yPercent:100,
 	y:100,
@@ -174,7 +185,7 @@ gsap.from(".titaniumImageContainer",{
 gsap.from("#intro1",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"320 top",
+		start:"620 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -183,7 +194,7 @@ gsap.from("#intro1",{
 gsap.from("#intro2",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"340 top",
+		start:"640 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -192,7 +203,7 @@ gsap.from("#intro2",{
 gsap.from("#intro3",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"360 top",
+		start:"660 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -201,7 +212,7 @@ gsap.from("#intro3",{
 gsap.from("#intro4",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"380 top",
+		start:"680 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -210,7 +221,7 @@ gsap.from("#intro4",{
 gsap.from("#intro5",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"400 top",
+		start:"700 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -219,7 +230,7 @@ gsap.from("#intro5",{
 gsap.from("#intro6",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"420 top",
+		start:"720 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -228,7 +239,7 @@ gsap.from("#intro6",{
 gsap.from("#intro7",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"440 top",
+		start:"740 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -237,7 +248,7 @@ gsap.from("#intro7",{
 gsap.from("#intro8",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"460 top",
+		start:"760 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -246,7 +257,7 @@ gsap.from("#intro8",{
 gsap.from("#intro9",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"480 top",
+		start:"780 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -255,7 +266,7 @@ gsap.from("#intro9",{
 gsap.from("#intro10",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"500 top",
+		start:"800 top",
 		end:"+=500",
 		scrub:2,
 	},
@@ -264,7 +275,7 @@ gsap.from("#intro10",{
 gsap.from("#intro11",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"520 top",
+		start:"820 top",
 		end:"+=500",
 		scrub:2,
 	},

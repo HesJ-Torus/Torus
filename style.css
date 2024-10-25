@@ -199,6 +199,7 @@ html {background-color: white}
  }
  .titaniumPin{
 	 width:100%;
+	 min-height:100vh;
  }
  
 .titaniumHeading{
