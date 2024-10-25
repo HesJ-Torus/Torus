@@ -72,7 +72,7 @@ gsap.to(".mainAni", {
 ScrollTrigger.create({
 	trigger:".titaniumPin",
 	start:"top top",
-	end:"+=1300",
+	end:"+=1600",
 	pin:true,
 	scrub:true,
 });
