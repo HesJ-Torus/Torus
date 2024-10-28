@@ -40,7 +40,7 @@ gsap.to(".content", {
 	scrollTrigger:{
 		trigger:".content",
 		start:"-50 80%",
-		end:"+=0 50%",
+		end:"+=0 0%",
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
@@ -51,23 +51,14 @@ gsap.to("main", {
 	scrollTrigger:{
 		trigger:".content",
 		start:"-50 80%",
-		end:"+=0 50%",
+		end:"+=0 0%",
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
 	opacity:"0"
 });
 
-gsap.to(".mainAni", {
-	scrollTrigger:{
-		trigger:".content",
-		start:"0 80%",
-		end:"+=0 60%",
-		scrub:"true",
-		toggleActions:"restart none reverse none"
-	},
-	backgroundColor:"black"
-});
+
 
 ScrollTrigger.create({
 	trigger:".titaniumPin",
@@ -164,7 +155,7 @@ gsap.from("#title8",{
 gsap.from(".titaniumImage",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"200 top",
+		start:"500 top",
 		end:"+=500",
 		scrub:1,
 		ease: "power3.out",
@@ -174,7 +165,7 @@ gsap.from(".titaniumImage",{
 gsap.from(".titaniumImageContainer",{
 	scrollTrigger:{
 		trigger:".content",
-		start:"200 top",
+		start:"500 top",
 		end:"+=500",
 		scrub:1,
 		ease: "power3.out",
