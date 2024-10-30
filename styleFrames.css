@@ -229,15 +229,16 @@ html {background-color: white}
 	 position:relative;
 	 display:flex;
 	 flex-wrap:wrap;
+	 justify-content:center;
  }
  .imageSelect img{
-	 width:100px;
+	 height:80px;
 	 margin:5px 10px;
 	 cursor: pointer;
  }
  /*sideInfo*/
  .productInfo{
-	 min-width:35%;
+	 width:25%;
 	 padding:0 1rem ;
  }
  .productInfo h3{
@@ -246,7 +247,7 @@ html {background-color: white}
 	 color: #424141;
  }
  .productInfo p{
-	 font-size:1.2rem;
+	 font-size:1.4rem;
 	 padding:1rem 0;
  }
  /*bottominfo*/
@@ -257,6 +258,7 @@ html {background-color: white}
 	 min-height:30vh;
 	 width:100%;
 	 padding: 3rem;
+	 align-items:center;
  }
  .pagesMenu{
 	 display:flex;
@@ -272,9 +274,39 @@ html {background-color: white}
 	 color: #424141;
  }
  .pagesMenu h3:hover{
-	 color: green;
+	 color: gray;
  }
- 
+ .specPage{
+	 display:flex;
+	 flex-direction:column;
+	 width:60%;
+	 font-size:1.4rem;
+	 padding: 1rem 0;
+ }
+ .specLongText{
+	 padding: 1.1rem 0;
+	 border-bottom: 2px solid;
+ }
+ .specShort{
+	 padding: 1.1rem 0;
+	 border-bottom: 2px solid;
+	 display:grid;
+	 grid-template-columns:1fr 2fr;
+ }
+ .specShort h4{
+	 font-weight:600;
+	 padding:0 1rem;
+ }
+ .specShort p{
+	 padding-right:1rem;
+ }
+ .geoTable{
+	 display:none;
+ }
+ .evolution{
+	 display:none;
+	 font-size:1.4rem;
+ }
  
  @media (max-width: 1150px) {
      .content h2{

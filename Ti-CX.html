@@ -3,8 +3,10 @@
 <head>
 	<link rel="stylesheet" href="styleFrames.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	<title> Torus - Ti-CX </title>
+	<title> TORUS - Ti-CX </title>
 	<link rel="icon" href="images/favicon.png">
+	<script src="jquery-3.7.1.min.js"></script>
+	<script src="appFrames.js"></script>
 	<style>
 	</style>
 </head>
@@ -50,29 +52,77 @@
 					<img class="containedImage" id="CXImage" src="images/Ti-CX.webp">
 				</div>
 				<div class="imageSelect">
-					<img onclick="CXImage.src='images/Ti-XC.webp'" src="images/Ti-CX.webp">
 					<img onclick="CXImage.src='images/Ti-CX.webp'" src="images/Ti-CX.webp">
-					<img src="images/Ti-CX.webp">
+					<img onclick="CXImage.src='images/Ti-CXBack.webp'" src="images/Ti-CXBack.webp">
+					<img onclick="CXImage.src='images/Ti-CX 1.webp'" src="images/Ti-CX 1.webp">
+					<img onclick="CXImage.src='images/Ti-CX 2.webp'" src="images/Ti-CX 2.webp">
+					<img onclick="CXImage.src='images/Ti-CX 3.webp'" src="images/Ti-CX 3.webp">
+					<img onclick="CXImage.src='images/Ti-CX 4.webp'" src="images/Ti-CX 4.webp">
+					<img onclick="CXImage.src='images/Ti-CX 5.webp'" src="images/Ti-CX 5.webp">
+					<img onclick="CXImage.src='images/Ti-CX 6.webp'" src="images/Ti-CX 6.webp">
 				</div>
 			</div>
 			<div class="productInfo">
 				<h3> MARK-2</h3>
-				<p>thisis Infomation
-				
+				<p> - Ti Cyclo-cross race bike.<br>
+					
 				</p>
 			</div>
 		</div>
 		<div class="infoPages">
 			<div class="pagesMenu">
-				<h3>SPECIFICATION</h3>
-				<h3>GEOMETRY TABLE</h3>
-				<h3>TI-CX EVOLUTION</h3>
+				<h3 id="specClick">SPECIFICATION</h3>
+				<h3 id="geoClick">GEOMETRY TABLE</h3>
+				<h3 id="evoClick">TI-CX EVOLUTION</h3>
 			</div>
-			<div class="specPage">
-				
+			<div class="specPage" id="specPage">
+				<div class="specLongText">
+					<p>
+					This is the Ti Cyclo-cross race bike.<br>
+					It's designed to finish every CX race without having to change bikes thorugh it being designed to work in mud.<br>
+					Drawing on our experience from MTB racing we have designed the drivetrain to cope with the most arduous muddy race conditions.<br>
+					We've tested it over 2 CX seasons and we are confident it works.<br>
+					The frame is 1x specific - no front mech.<br>
+					It uses an 142mm rear hub with an mtb style 1x specific clutch type mech that does actually work in mud
+					- so no more mud induced chain suck resulting in snapped mech hangers or derailleurs.<br>
+					The mud clearance is as big as is possible - so no more mud clogging around the fork or the bottom bracket/chainstay area.<br>
+					It's disc specific, externally routed - there are no holes to fill up with water! It's titanium so it's smooth
+					</p>
+				</div>
+				<div class="specShort">
+					<h4>Bottom Bracket</h4>
+					<p>73mm threaded BB shell</p>
+				</div>
+				<div class="specShort">
+					<h4>Headtube</h4>
+					<p>44mm headtube utilising an external lower cup for tapered steerers</p>
+				</div>
+				<div class="specShort">
+					<h4>Brake Mount</h4>
+					<p>Flat mount rear brake mount for 160mm rotor</p>
+				</div>
+				<div class="specShort">
+					<h4>Hub Spacing</h4>
+					<p>12x142mm rear hub spacing with bolt-in thru axle</p>
+				</div>
+				<div class="specShort">
+					<h4>Seat Tube</h4>
+					<p>27.2mm seat post for added comfort</p>
+				</div>
+				<div class="specShort">
+					<h4>Cable Routing</h4>
+					<p>External routing below the down tube for a clean top tube for shouldering.</p>
+				</div>
+				<div class="specShort">
+					<h4>Clearance</h4>
+					<p>Tyre clearance for up to 29x2.1" tyres (700x54)</p>
+				</div>
 			</div>
-			<div class="geoTable">
-				
+			<div class="geoTable" id="geoTable">
+				<img src="images/Ti-CX Geo.png">
+			</div>
+			<div class="evolution" id="evolution">
+				<p> Coming Soon! </p>
 			</div>
 		</div>
 	</div>
@@ -101,8 +151,6 @@
 			</ul>
 		</div>
 	</div>
-	
-	
 	
 </body>
 </html>
