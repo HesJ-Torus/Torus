@@ -188,7 +188,7 @@ html {background-color: white}
   
  .contentWrap{
 	 display:flex;
-	 max-width:1700px;
+	 max-width:1900px;
 	 width:100%;
 	 margin: 1rem 0rem;
 	 justify-content:center;
@@ -302,10 +302,16 @@ html {background-color: white}
  }
  .geoTable{
 	 display:none;
+	 min-height:70vh;
  }
+  .geoTable img{
+	  padding: 3rem 1rem;
+  }
  .evolution{
 	 display:none;
 	 font-size:1.4rem;
+	 padding:3rem 1rem;
+	 min-height:70vh;
  }
  
  @media (max-width: 1150px) {

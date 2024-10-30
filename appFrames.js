@@ -1,4 +1,7 @@
 
+$(document).ready(function() {
+
+
 $('#specClick').click(function() {
     $('#specPage').css({
         'display': 'block',
@@ -32,3 +35,6 @@ $('#evoClick').click(function() {
         'display': 'block',
     });
 });
+
+});
+
