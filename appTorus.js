@@ -73,11 +73,10 @@ gsap.from("#title1",{
 	scrollTrigger:{
 		trigger:".bigPin",
 		id:"1",
-		start:"6% 0",
-		end:"31% 0",
+		start:"12% 0",
+		end:"37% 0",
 		scrub:1,
 		ease: "power3.out",
-		markers:true,
 		
 	},
 	y: () => window.innerHeight,
@@ -86,11 +85,10 @@ gsap.from("#title2",{
 	scrollTrigger:{
 		trigger:".bigPin",
 		id:"2",
-		start:"10% top",
-		end:"35% top",
+		start:"8% top",
+		end:"33% top",
 		scrub:1,
 		ease: "power3.out",
-		markers:true,
 	},
 	y: () => window.innerHeight,
 })
@@ -109,7 +107,7 @@ gsap.from("#title4",{
 		trigger:".bigPin",
 		start:"14% top",
 		end:"39% top",
-		scrub:2,
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
@@ -129,7 +127,7 @@ gsap.from("#title6",{
 		trigger:".bigPin",
 		start:"8% top",
 		end:"34% top",
-		scrub:2,
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
@@ -137,9 +135,9 @@ gsap.from("#title6",{
 gsap.from("#title7",{
 	scrollTrigger:{
 		trigger:".bigPin",
-		start:"12% top",
-		end:"37% top",
-		scrub:2,
+		start:"6% top",
+		end:"31% top",
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
@@ -181,7 +179,7 @@ gsap.from("#intro1",{
 		trigger:".bigPin",
 		start:"10% top",
 		end:"35% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -190,7 +188,7 @@ gsap.from("#intro2",{
 		trigger:".bigPin",
 		start:"11% top",
 		end:"36% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -199,7 +197,7 @@ gsap.from("#intro3",{
 		trigger:".bigPin",
 		start:"12% top",
 		end:"37% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -208,7 +206,7 @@ gsap.from("#intro4",{
 		trigger:".bigPin",
 		start:"14% top",
 		end:"39% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -217,7 +215,7 @@ gsap.from("#intro5",{
 		trigger:".bigPin",
 		start:"13% top",
 		end:"38% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -226,7 +224,7 @@ gsap.from("#intro6",{
 		trigger:".bigPin",
 		start:"16% top",
 		end:"41% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -235,7 +233,7 @@ gsap.from("#intro7",{
 		trigger:".bigPin",
 		start:"17% top",
 		end:"42% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -244,7 +242,7 @@ gsap.from("#intro8",{
 		trigger:".bigPin",
 		start:"18% top",
 		end:"43% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -253,7 +251,7 @@ gsap.from("#intro9",{
 		trigger:".bigPin",
 		start:"19% top",
 		end:"44% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -262,7 +260,7 @@ gsap.from("#intro10",{
 		trigger:".bigPin",
 		start:"20% top",
 		end:"45% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
@@ -271,7 +269,7 @@ gsap.from("#intro11",{
 		trigger:".bigPin",
 		start:"21% top",
 		end:"46% top",
-		scrub:2,
+		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
