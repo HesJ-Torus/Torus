@@ -71,42 +71,44 @@ ScrollTrigger.create({
 
 gsap.from("#title1",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		id:"2",
-		start:"0% 0",
-		end:"+50% 0",
-		scrub:2,
+		trigger:".bigPin",
+		id:"1",
+		start:"6% 0",
+		end:"31% 0",
+		scrub:1,
 		ease: "power3.out",
+		markers:true,
 		
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#title2",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
+		trigger:".bigPin",
 		id:"2",
-		start:"0% top",
-		end:"+50% top",
-		scrub:2,
+		start:"10% top",
+		end:"35% top",
+		scrub:1,
 		ease: "power3.out",
+		markers:true,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#title3",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+50% top",
-		scrub:2,
+		trigger:".bigPin",
+		start:"2% top",
+		end:"27% top",
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#title4",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+50% top",
+		trigger:".bigPin",
+		start:"14% top",
+		end:"39% top",
 		scrub:2,
 		ease: "power3.out",
 	},
@@ -114,19 +116,19 @@ gsap.from("#title4",{
 })
 gsap.from("#title5",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
+		trigger:".bigPin",
 		start:"0% top",
-		end:"+50% top",
-		scrub:2,
+		end:"25% top",
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#title6",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+50% top",
+		trigger:".bigPin",
+		start:"8% top",
+		end:"34% top",
 		scrub:2,
 		ease: "power3.out",
 	},
@@ -134,9 +136,9 @@ gsap.from("#title6",{
 })
 gsap.from("#title7",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+50% top",
+		trigger:".bigPin",
+		start:"12% top",
+		end:"37% top",
 		scrub:2,
 		ease: "power3.out",
 	},
@@ -144,20 +146,20 @@ gsap.from("#title7",{
 })
 gsap.from("#title8",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
+		trigger:".bigPin",
 		ease: "power3.out",
-		start:"0% top",
-		end:"+50% top",
-		scrub:2,
+		start:"4% top",
+		end:"29% top",
+		scrub:1,
 		ease: "power3.out",
 	},
 	y: () => window.innerHeight,
 })
 gsap.from(".titaniumImage",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"20% top",
+		end:"45% top",
 		scrub:1,
 		ease: "power3.out",
 	},
@@ -165,9 +167,9 @@ gsap.from(".titaniumImage",{
 })
 gsap.from(".titaniumImageContainer",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"20% top",
+		end:"45% top",
 		scrub:1,
 		ease: "power3.out",
 	},
@@ -176,106 +178,106 @@ gsap.from(".titaniumImageContainer",{
 })
 gsap.from("#intro1",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"10% top",
+		end:"35% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro2",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"11% top",
+		end:"36% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro3",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"12% top",
+		end:"37% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro4",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"14% top",
+		end:"39% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro5",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"13% top",
+		end:"38% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro6",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"16% top",
+		end:"41% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro7",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"17% top",
+		end:"42% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro8",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"18% top",
+		end:"43% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro9",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"19% top",
+		end:"44% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro10",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"20% top",
+		end:"45% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 gsap.from("#intro11",{
 	scrollTrigger:{
-		trigger:".titaniumPin",
-		start:"0% top",
-		end:"+80% top",
+		trigger:".bigPin",
+		start:"21% top",
+		end:"46% top",
 		scrub:2,
 	},
 	y: () => window.innerHeight,
 })
 
 
-
+ScrollTrigger.refresh();
 
 
 
