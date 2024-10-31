@@ -199,6 +199,8 @@ html {background-color: white}
 	 overflow:hidden;
  }
  .titaniumPin{
+	 display:flex;
+	 flex-direction:column;
 	 width:100%;
 	 min-height:100vh;
  }
@@ -230,7 +232,9 @@ html {background-color: white}
 .titaniumContent{
 	display:flex;
 	width:100%;
+	flex-grow:1;
 	align-items:center;
+	justify-content:space-around;
 }
 .titaniumImageContainer{
 	position:relative;
@@ -249,8 +253,8 @@ html {background-color: white}
 	text-align:center;
 	display:flex;
 	flex-direction:column;
+	justify-content:center;
 	align-items:center;
-	justify-content:space-between;
 }
 .titaniumIntro h1{
 	font-size:7vw;
@@ -284,7 +288,7 @@ html {background-color: white}
 	}
 	.titaniumImageContainer{
 		width:100%;
-		min-height:100%;
+		min-height:;
 	}
 	.titaniumIntro{
 		padding:0 5rem;
