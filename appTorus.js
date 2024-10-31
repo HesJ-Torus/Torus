@@ -36,7 +36,7 @@ function getYDistance(el) {
 	);
 }
 
-gsap.to(".content", {
+gsap.to("html", {
 	scrollTrigger:{
 		trigger:".content",
 		start:"-50 80%",
@@ -273,39 +273,7 @@ gsap.from("#intro11",{
 	y: () => window.innerHeight - 40,
 })
 
-$('#specClick').click(function() {
-    $('#specPage').css({
-        'display': 'block',
-    });
-	$('#geoTable').css({
-        'display': 'none',
-    });
-	$('#evolution').css({
-        'display': 'none',
-    });
-});
-$('#geoClick').click(function() {
-    $('#specPage').css({
-        'display': 'none',
-    });
-	$('#geoTable').css({
-        'display': 'none',
-    });
-	$('#evolution').css({
-        'display': 'none',
-    });
-});
-$('#specClick').click(function() {
-    $('#specPage').css({
-        'display': 'block',
-    });
-	$('#geoTable').css({
-        'display': 'none',
-    });
-	$('#evolution').css({
-        'display': 'none',
-    });
-});
+
 
 
 

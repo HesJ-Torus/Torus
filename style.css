@@ -32,8 +32,9 @@ html {background-color: white}
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
-	 background-image: url("images/mainBackground9.png");
+	 background-image: url("images/background10.png");
 	 background-size: cover;
+	 background-repeat: no-repeat;
 	 background-position: center center;
 	 padding-bottom:10vh;
  }
@@ -191,7 +192,7 @@ html {background-color: white}
 	 display: flex;
 	 flex-direction: column;
 	 padding: 0rem 0rem;
-	 background-color:white;
+	 background-color:;
 	 justify-content: space-between;
 	 width:100%;
 	 align-items:center;

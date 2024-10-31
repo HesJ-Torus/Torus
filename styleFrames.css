@@ -250,6 +250,25 @@ html {background-color: white}
 	 font-size:1.4rem;
 	 padding:1rem 0;
  }
+ .whereToBuy{
+	 background-color:#cdcfd1;
+	 text-align:center;
+	 padding:1rem 2rem;
+ }
+ .whereToBuy h3{
+	 text-align:left;
+	 padding:1rem 1rem;
+ }
+ .buyLink{
+	 padding:0 2rem;
+	 background-color:black;
+	 color:white;
+ }
+ .buyLink:hover{
+	 padding:0 2rem;
+	 background-color:gray;
+	 color:white;
+ }
  /*bottominfo*/
  .infoPages{
 	 display:flex;
@@ -264,6 +283,7 @@ html {background-color: white}
 	 display:flex;
 	 margin:0 auto;
  }
+ /*page select titles*/
  .pagesMenu h3{
 	 padding:0 1rem;
 	 font-size: 2rem;
@@ -306,6 +326,7 @@ html {background-color: white}
  }
   .geoTable img{
 	  padding: 3rem 1rem;
+	  width:100%;
   }
  .evolution{
 	 display:none;
@@ -332,4 +353,14 @@ html {background-color: white}
 	  .pagesMenu h3{
 		 font-size: 1.4rem;
 	  }
+	  .productInfo p{
+	   font-size:2rem;
+	}
+	.pagesMenu h3{
+		font-size:1.5rem;
+	}
+	.specPage{
+		font-size:1.7rem;
+		 width:90%;
+	}
 }
