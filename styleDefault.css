@@ -57,7 +57,7 @@ html {background-color: white}
 	 display:inline-block;
 	 padding:2rem;
 	 color: white;
-	 font-weight: 400;
+	 font-weight: 500;
 	 font-size: 1.4rem;
 	 transition: 0.3s;
  }
@@ -150,6 +150,7 @@ html {background-color: white}
  p{
 	 
  }
+ /*products*/
  .frames{
 	 max-width:1400px;
 	 background-color:  black;
@@ -204,3 +205,18 @@ html {background-color: white}
 	background:black;
 	border: 2px solid white;
  }
+  /*frames*/
+  .framesContainer{
+	  max-width:1400px;
+	  padding: 0 3rem;
+  }
+  .framesHeader{
+	  text-align:center;
+	  padding:2rem 0;
+  }
+  .framesHeader h3{
+	  padding:2rem 0;
+  }
+  .framesDrop{
+	  
+  }
