@@ -32,7 +32,7 @@ html {background-color: white}
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
-	 background-image: url("images/background10.png");
+	 background-image: url("images/NewBackground4.png");
 	 background-size: cover;
 	 background-repeat: no-repeat;
 	 background-position: center center;
@@ -150,7 +150,7 @@ html {background-color: white}
  .scroll{
 	 position:absolute;
 	 color: black;
-	 font-weight: 500;
+	 font-weight: 400;
 	 left: 50%;
 	 transform: translateX(-50%);
 	 bottom: 15%;
@@ -183,6 +183,10 @@ html {background-color: white}
 	}
 	.navLink a{
 		font-size: 3rem;
+	}
+	.scroll{
+		height: 8%;
+		font-size: 2rem;
 	}
 }
 
