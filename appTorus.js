@@ -172,7 +172,7 @@ gsap.from(".titaniumImageContainer",{
 		ease: "power3.out",
 	},
 	yPercent:100,
-	y:100,
+	y:500,
 })
 gsap.from("#intro1",{
 	scrollTrigger:{

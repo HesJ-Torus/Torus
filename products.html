@@ -1,155 +1,29 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" href="style2.css">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<title> Products </title>
-<link rel="icon" href="images/favicon.png">
-<style>
-.page{
-	display: flex;
-	flex-direction:column;
-	padding: 3rem 0;
-	align-items:center;
-	color:white;
-}
-#title {
-	font-size: 3rem;
-	font-weight: 1000;
-	text-align: center;
-	color:black;
-}
-.subtitle {
-	font-size: 2rem;
-	font-weight: 500;
-	text-align: center;
-	color:white;
-}
-
-.productNav a{
-	 display:inline-block;
-	 padding:2rem;
-	 color:white;
-	 font-weight: 400;
-	 font-size: 1.4rem;
-}
-.productNav a:hover{
-	color: gray;
-}
-.product{
-	width:100%;
-	max-width:1200px;
-	flex-wrap: wrap;
-	align-items:center;
-	display: flex;
-	justify-content: space-around;
-	padding: 1.5rem 0rem;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
-	color:black;
-}
-.productVert{
-	width:100%;
-	max-width:1200px;
-	flex-wrap: wrap-reverse;
-	align-items:center;
-	display: flex;
-	justify-content: space-around;
-	padding: 1.5rem 0rem;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif;
-	color:black;
-}
-.imgDiv{
-	width:100%;
-	padding:2rem 2rem;
-	max-width: 500px;
-}
-.image{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 768px;
-}
-.item{
-	width:100%;
-	padding:0rem 2rem;
-	max-width:500px;
-	display: flex
-	flex-direction:column;
-	padding: 0rem 0rem;
-	font-size: 30;
-}
-.itemTitle{
-	font-weight: 650;
-	font-size: 1.9rem;
-	
-	
-}
-.itemText {
-	font-size: 1rem;
-	font-weight: 450;
-	
-	padding: 0.5rem 0rem;
-}
-.moreInfo{
-	font-size: 1rem;
-	font-weight: 450;
-	
-	padding: 0.5rem 0rem;
-}
-.moreInfo a:hover{
-	color: silver;
-}
-.basket{
-	display: flex;
-	flex-direction: row;
-	font-size:1.5rem;
-	font-weight: 500;
-	
-	justify-content: space-between;
-	padding: 1rem 1rem;
-}
-.basket a{
-color: gray;
-}
-.basket a:hover{
-color: green;
-}
-.size{
-flex-grow:1;
-}
-.price{
-padding: 0rem 1rem;
-}
-.navDiv{
-	display: grid;
-	background-color: black;
-	grid-template-columns:  auto ;
-}
-.navDiv ul{
-	 display:flex;
-	 align-items: center;
-	 justify-items: center;
-}
-
-</style>
-
+	<link rel="stylesheet" href="styleDefault.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title> Products </title>
+	<link rel="icon" href="images/favicon.png">
+	<style>
+	</style>
 </head>
 
 <body>
-	
 	<div class="menu">
-	
 	<nav class="hide">
-		<div class="navImg">
-		<img class="navImg1" src="images/thumbnail_website-bannerInverted.png">
-		</div>
+		<img class="navImg" src="images/thumbnail_website-bannerInverted.png">
 		<ul>
 		<li class="navLink">
 			<a href="/">Home </a>
 		</li>
-		<li class="navLink">
-			<a href="/products">Products </a>
+		<li class="navLink" id="drop">
+			<a href="/products">Products <i class='bx bx-chevron-down'></i></a>
+			<ul class="dropdown">
+				<li><a href "/">Frames</a></li>
+				<li><a href "/">Frames</a></li>
+				<li><a href "/">Frames</a></li>
+			</ul>
 		</li>
 		<li class="navLink">
 			<a href="/">Infomation</a>
@@ -158,374 +32,55 @@ padding: 0rem 1rem;
 	</nav>
 	</div>
 	
-	<div class="default">
-		<div class="page">
-			<div id="title">
-				<h1>Products</h1>
-			</div>
-			<div class="subtitle">
-				<p>All our premium titanium products and more <p>
-			</div>
-			<div class="navDiv">
-			<ul>
-					<li class="productNav">
-						<a href="/">MTB Frames </a>
-					</li>
-					<li class="productNav">
-						<a href="/">Gravel Frames </a>
-					</li>
-					<li class="productNav">
-						<a href="/">Cross Frames </a>
-					</li>
-					<li class="productNav">
-						<a href="/">Road Frames </a>
-					</li>
-					<li class="productNav">
-						<a href="/">Other Components </a>
-					</li>
-			</ul>
-			</div>
-			
-			
-			<div class="product"> <!seatclamp>
-				<div class="imgDiv">
-					<img class="image" src="images/Ti-SC1-2.webp">
+	<div class="content">
+		<div class="frames">
+			<div class="textImage">
+				<div class="text">
+					<h3>Frames</h3>
+					<p>Check out our list of frames including the latest models of our frames aswell as some of the old classics</p>
+					<a href="/pageNotCreated"> <div class="visit">Visit</div></a>
 				</div>
-				<div class="item">
-					<p class="itemTitle">Seat Clamp - Titanium</p>
-					<p class="itemText"> A titanium cut-out seat clamp from Torus Bicycles. Ti-3Al-2.5V band and nut bar Stainless Steel M6 bolt.<br>
-						
-						
-					</p>
-					<p class="moreInfo">
-						<a href="/Seatclamp Product Page">More infomation</a>
-					</p>
-				</div>
-			</div>
-			<div class="productVert"> <!seatpost>
-
-				
-				<div class="item">
-					<p class="itemTitle">Ti In-line Mk2 Seat Post </p>
-					<p class="itemText"> The new Mk 2 Titanium in-line seatposts from Torus.
-					Plain gauge <br> Ti-3Al-2.5V tube, twin bolt clamp.
-					<br><br>
-					<a href="/Seat Post Product Page">more information</a>
-				<br>
-				</p>
-			
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/inlineSeat.webp">
-				</div>
-			</div>
-			<div class="product"> <!Ti29-Mk3>
-				<div class="imgDiv">
-					<img class="image" src="images/frameFront.webp">
-				</div>
-				<div class="item">
-					<p class="itemTitle">Ti29-Mk3</p>
-					<p class="itemText">The 3rd evolution of our hardtail MTB frame for 29" wheels<br><br>
-					<a href="/Ti29-Mk3 Product Page">More information</a>
-					<br></p>
-				</div>
-			</div>
-			<div class="productVert"> <!Torus Ti CXob>
-				
-				<div class="item">
-					<p class="itemTitle">Torus Ti CXob</p>
-					<p class="itemText">The Ti Cyclo-cross race bike.  We call it the One Bike, or TiCX-ob.<br><br>
-					<a href="/Ti CXoB Product Page">More information</a>
-					<br></p>
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/cxob.webp">
-				</div>
-			</div>
-			<div class="product"> <!Torus Titanium Flat Bars>
-				<div class="imgDiv">
-					<img class="image" src="images/bars.webp">
-				</div>
-				<div class="item">
-					<p class="itemTitle">Torus Titanium Flat Bars</p>
-					<p class="itemText"> A beautifully made titanium MTB handlebar that's perfect for 29ers and cross country and enduro racers.<br><br>
-
-					<a href="/Titanium Bars Product Page">More information</a>
-					<br></p>
-				</div>
-			</div>		
-			<div class="productVert"> <!Torus RTC rims>
-				
-				<div class="item">
-					<p class="itemTitle">Torus RTC rims</p>
-					<p class="itemText">Torus RTC rims are a Road Tubeless compatible clincher rim with a temperature resistant brake track.  
-					These rims have been tried and tested and provide a nice lightweight aero road wheel.  They brake track is 25mm wide providing a 
-					wider base for the modern race tyres.  They then become slightly wider to provide improved airflow transition from the tyre to 
-					rim - which improves their performance and stability in cross winds. All rims have a Uni-directional Matt finish.
-					<a href="https://clee-cycles.co.uk/products/torus-rtc-rims?variant=48546652553548">, more information</a>
-					<br>
-					</p>
-					<div class="basket">
-						<p class="size"> RTC38 - 20h </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-rtc-rims?variant=48546652553548>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> RTC38 - 24h Asym</p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-rtc-rims?variant=48546652553548>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> RTC50 - 20h </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-rtc-rims?variant=48546652553548>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> RTC50 - 24h Asym</p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-rtc-rims?variant=48546652553548>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/RTCrims.jpg">
-				</div>
-			</div>
-			<div class="product"> <!Torus MTC 29er Asym Carbon MTB Rims>
-				<div class="imgDiv">
-					<img class="image" src="images/seat.jpg">
-				</div>
-				<div class="item">
-					<p class="itemTitle">Torus MTC 29er Asym Carbon MTB Rims </p>
-					<p class="itemText">XC race 
-					and trail tough carbon rims.  27mm wide asymmetric rims use an offset spoke bed to improve lateral wheel stiffness.  
-					Light enough to race on and tough enough for trail thrashing.  These carbon rims give much greater lateral 
-					stiffness compared to the best alloy rims - so they can be built with less spokes, and lighter spokes if required. 
-					Combined with the offset spoke bed the result is a lightweight wheel with significantly more lateral stiffness. 
-					So when you pedal they go!
-					<a href="https://clee-cycles.co.uk/products/torus-mtc-29er-asym-carbon-mtb-rims">, more information</a>
-					<br></p>
-					<div class="basket">
-						<p class="size"> 28h Asym </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-mtc-29er-asym-carbon-mtb-rims>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="productVert"> <!Steel 650B Frame>
-				
-				<div class="item">
-					<p class="itemTitle">Steel 650B Frame</p>
-					<p class="itemText"> The Steel 650B 
-						from Torus Bicycles is a modern classic. A fusion of fillet-brazed butted steel yields a light weight, but durable, frame with that unmistakable steel ride quality.
-
-						The Steel 650B was designed in the UK as a versatile cross country trail bike. Double-butted 
-						520 cromoly is used throughout, to help keep the weight down.
-						The sliding dropouts allows the bike to be set up a single speed or geared. 
-						It can be run rigid or with suspension forks - the choice is yours. But with 27.5 
-						inch wheels and classic steel tubing, a smooth ride is guaranteed.
-						<a href="https://clee-cycles.co.uk/products/torus-steel-650b">, more information</a>
-						<br></p>
-					<div class="basket">
-						<p class="size"> Fixed Dropout - 17" (Medium) Green </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-steel-650b>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/steelFrame.jpg">
-				</div>
-			</div>
-			<div class="product"> <!mk2 ti650>
-				<div class="imgDiv">
-					<img class="image" src="images/TI650MK2.webp">
-				</div>
-				<div class="item">
-					<p class="itemTitle">Torus Ti650 - Mk2 Frame </p>
-					<p class="itemText"> The Mk2 Titanium 650b  is the same great supple frame, but with a few marked improvements.  We've ridden the original Ti650fd for a over a year now, we've listened to riders who also love it, we've listened to riders who've tested it - and we've listened to what they've said!
-
-						The Ti650 is a more nimble ride than the Ti29 - and having slightly smaller wheels and tubes does make it stiffer!  But with the tweeks to the Mk2 it will be
-						a bike you'll love riding even more.
-					<a href="https://clee-cycles.co.uk/products/torus-ti650-mk2">, more information</a>
-
-					<br></p>
-					<div class="basket">
-						<p class="size"> Fixed Dropout - 17"</p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-ti650-mk2>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="productVert"> <!Torus Ti Road Winter Sport Frame>
-				
-				<div class="item">
-					<p class="itemTitle">Torus Ti Road Winter Sport Frame </p>
-					<p class="itemText"> The Torus Ti Road Winter Sport is a sporting geometry road frame, similar to the Torus Ti Road, with the
-						option of adding mudguards and a panier rack. It's comfortable enough to ride all day, in any weather - it's ideal for winter 
-						training, audax, sportives, or just riding around the countryside whenever you like!
-					
-						In keeping with the Torus traditional styling, the Road Winter Sport has straight chainstays, external 1 1/8" head tube, threaded 
-						BB, external cables - just how we like them! 
-						<a href="https://clee-cycles.co.uk/products/torus-ti-road-winter-sport">, more information</a>
-						<br></p>
-					<div class="basket">
-						<p class="size">Ti-RdWS 55cm</p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-ti-road-winter-sport>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size">Ti-RdWS 57cm</p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-ti-road-winter-sport>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/winterFrame.webp">
-				</div>
-			</div>
-			<div class="product"> <!Torus Stem>
-				<div class="imgDiv">
-					<img class="image" src="images/stem.webp">
-				</div>
-				<div class="item">
-					<p class="itemTitle">Torus Stem - Titanium Dual Logo</p>
-					<p class="itemText">Torus titanium stems are constructed from an oversize bi-ovalised Ti-3Al-2.5V tube, which is welded to an investment cast titanium clamp.  Six M5 stainless steel bolts 
-					complete the stem.  With dual laser-etched Torus graphics, the stem can be fitted with 7 degrees rise or drop.
-					<a href="https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo">, more information</a>
-					<br></p>
-					<div class="basket">
-						<p class="size"> 70mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 80mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 90mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 100mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 110mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 120mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 130mm </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/torus-stem-titanium-dual-logo>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					
-				</div>
-			</div>
-			<div class="productVert"> <!TiF36 - Ti MTB Rigid Disk Fork>
-				
-				<div class="item">
-					<p class="itemTitle">TiF36 - Ti MTB Rigid Disk Fork</p>
-					<p class="itemText">Torus five-piece titanium forks are light, tough and beautifully crafted. The perfect accompaniment for your rigid mountain bike.  
-					Now available with a taper steerer 1.5" - 1 1/8" and a 15mm thru axle, and supplied with a KCNC Thru axle.
-					<a href="https://clee-cycles.co.uk/products/tif36-ti-mtb-rigid-disk-fork">, more information</a>
-					<br></p>
-					<div class="basket">
-						<p class="size"> 650B (455 mm) </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/tif36-ti-mtb-rigid-disk-fork>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 26" (440 mm) </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/tif36-ti-mtb-rigid-disk-fork>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 29er (470 mm)  </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/tif36-ti-mtb-rigid-disk-fork>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-					<div class="basket">
-						<p class="size"> 29er (470mm) Taper 15mm Thru </p>
-						<p class="price"></p>
-						<a href=https://clee-cycles.co.uk/products/tif36-ti-mtb-rigid-disk-fork>
-							Buy now!<i class='bx bxs-cart'></i> 
-						</a>
-					</div>
-				</div>
-				<div class="imgDiv">
-					<img class="image" src="images/fork.jpg">
-				</div>
+				<img src="images/SeatTube.webp">
 			</div>
 		</div>
-	</div>
-	<div class="menu">
-	<div class="bottomSection">
-		<p>
-			<a href=https://www.google.com/maps/place/Bridgnorth/>
-				<i class='bx bx-map' ></i> Located in Shropshire, England
-			</a>
-		</p>
-		<ul class="socials">
-			<li>
-				<a href=https://www.instagram.com/torusbicycles/>
-					<i class='bx bxl-instagram-alt' ></i> Torus Bicycles
-				</a>
-			</li>
-			<li>
-				<a href=https://www.facebook.com/TorusBicycles/>
-					<i class='bx bxl-facebook-circle'></i> Torus Bicycles
-				</a>
-			</li>
-		</ul>
+		<div class="components">
+			<div class="textImage">
+				<img src="images/seatpostBannerNew.png">
+				<div class="text">
+					<h3>Components</h3>
+					<p>Check out our range of titanium components which add to the timeless look of our frames</p>
+					<a href="/pageNotCreated"> <div class="visit">Visit</div></a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="components">
+			
+		</div>
+		<div class="clothing">
+		</div>
 	</div>
 	
+	<div class="menu">
+		<div class="bottomSection">
+			<p>
+				<a href=https://www.google.com/maps/place/Bridgnorth/>
+					<i class='bx bx-map' ></i> Located in Shropshire, England
+				</a>
+			</p>
+			<ul class="socials">
+				<li>
+					<a href=https://www.instagram.com/torusbicycles/>
+						<i class='bx bxl-instagram-alt' ></i> Torus Bicycles
+					</a>
+				</li>
+				<li>
+					<a href=https://www.facebook.com/TorusBicycles/>
+						<i class='bx bxl-facebook-circle'></i> Torus Bicycles
+					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 	
 	
