@@ -36,5 +36,13 @@ $('#evoClick').click(function() {
     });
 });
 
+
+$('#disciplineClick').click(function() {
+    $("#framesDropMenu").toggle();
+});
+
+
+
+
 });
 
