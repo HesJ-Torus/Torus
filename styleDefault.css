@@ -208,6 +208,7 @@ html {background-color: white}
   /*frames*/
   .framesContainer{
 	  max-width:1400px;
+	  width:100%;
 	  padding: 0 3rem;
   }
   .framesHeader{
@@ -218,5 +219,74 @@ html {background-color: white}
 	  padding:2rem 0;
   }
   .framesDrop{
-	  
+	 position: relative;
+	 display: inline-block;
+	 padding:0 3rem;
   }
+  .framesDrop p{
+	  border: 2px solid black;
+	  padding: 0.5rem 1rem;
+  }
+  .framesDropMenu{
+	 position: absolute;
+	 padding:0.5rem 1rem;
+	 margin:0rem 0;
+	 border: 2px solid black;
+	 background:white;
+	 width:;
+	 z-index:5;
+	 display:none;
+  }
+  .framesDropMenu li{
+	  padding:0.5rem 0
+  }
+  .framesOptionContainer{
+	  display:grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+	  text-align:center;
+	  justify-content:center;
+	  width:100%;
+	  padding: 1rem 0;
+  }
+  .framesOption{
+	  display:flex;
+	  flex-direction:column;
+	  transform: scale(0.95);
+	  align-items:center;
+  }
+  .framesOption:hover{
+	  transform: scale(1);
+  }
+  .framesOption:hover{
+	   .framesCheckOut{opacity:100;}
+  }
+  
+  .framesOption h4{
+	  font-weight:500;
+	  font-size:1.5rem;
+	   margin-bottom:0.5rem;
+  }
+  .framesProductImage{
+	  height:300px;
+	  width:100%;
+	  object-fit: cover;
+	  margin-bottom:1rem;
+  }
+  .framesCheckOut{
+	  margin:2rem 0;
+	  background:black;
+	  font-weight:600;
+	  color:white;
+	  width:50%;
+	  padding:0.5rem 0;
+	  opacity:0;
+  }
+  @media (max-width: 1150px){
+  .framesOptionContainer{
+    grid-template-columns: 1fr 1fr;
+	}
+	.framesCheckOut{
+		opacity:100;
+	}
+  }
+  
