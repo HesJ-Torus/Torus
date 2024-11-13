@@ -70,19 +70,27 @@ html {background-color: white}
  .navLink a:hover {
 	 color: gray;
  }
- ul li ul.dropdown li{
-	 display:block;
+ .navLink{
+	position: relative;
  }
- ul li ul.dropdown{
-	 text-align:center;
-	 position: absolute;
-	 background:silver;
-	 z-index:5;
-	 display:none;
- }
- #drop:hover ul.dropdown{
-	 display:block;
- }
+ .dropdown{
+	text-align:center;
+	position: absolute;
+	background:black;
+	z-index:5;
+	display:none;
+	width: 100%;
+}
+.dropdown li{
+   border: 1px solid white;
+   width:100%;
+}
+.dropdown li a{
+	padding:1rem;
+}
+#drop:hover ul.dropdown{
+	display:block;
+}
  
  
  /*Bottom bar*/

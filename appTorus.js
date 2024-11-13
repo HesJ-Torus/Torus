@@ -21,6 +21,8 @@ timeline.to(".imageWrap",{
 }, 1).from(".hide",{
 	opacity: "0", 
 	duration: 1,
+}, 1).from("main",{
+	backgroundColor: "rgba(255,255,255,1)",
 }, 1).to(".imageWrap",{
 	rotation: 360,
 	ease: "expo.out",
@@ -274,6 +276,36 @@ gsap.from("#intro11",{
 	y: () => window.innerHeight,
 })
 
+gsap.from(".TiGr",{
+	scrollTrigger:{
+		trigger:".TiGr",
+		start:"40% 90%",
+		end:"60% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.94)",
+})
+gsap.from(".TiXC",{
+	scrollTrigger:{
+		trigger:".TiXC",
+		start:"40% 90%",
+		end:"60% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.94)",
+})
+gsap.from(".TiCX",{
+	scrollTrigger:{
+		trigger:".TiCX",
+		start:"40% 90%",
+		end:"60% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.94)",
+})
 
 ScrollTrigger.refresh();
 
