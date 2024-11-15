@@ -285,6 +285,7 @@ html {background-color: white}
 	  font-weight:500;
 	  font-size:1.5rem;
 	   margin-bottom:0.5rem;
+		color:black;
   }
   .framesProductImage{
 	  height:300px;
@@ -300,6 +301,10 @@ html {background-color: white}
 	  width:50%;
 	  padding:0.5rem 0;
 	  opacity:0;
+  }
+  .framesCheckOut:hover{
+	background:gray;
+	
   }
   @media (max-width: 1150px){
   .framesOptionContainer{
