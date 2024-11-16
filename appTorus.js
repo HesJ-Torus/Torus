@@ -276,7 +276,7 @@ gsap.from("#intro11",{
 	y: () => window.innerHeight,
 })
 
-gsap.from(".TiGr",{
+gsap.from(".TiGrText",{
 	scrollTrigger:{
 		trigger:".TiGr",
 		start:"40% 90%",
@@ -284,19 +284,19 @@ gsap.from(".TiGr",{
 		scrub:1,
 		
 	},
-	transform: "scale(0.94)",
+	transform: "scale(0.8)",
 })
-gsap.from(".TiXC",{
+gsap.from(".TiGrText2",{
 	scrollTrigger:{
-		trigger:".TiXC",
-		start:"40% 90%",
-		end:"60% 70%",
+		trigger:".TiGr",
+		start:"50% 90%",
+		end:"70% 70%",
 		scrub:1,
 		
 	},
-	transform: "scale(0.94)",
+	transform: "scale(0.8)",
 })
-gsap.from(".TiCX",{
+gsap.from(".TiCXText",{
 	scrollTrigger:{
 		trigger:".TiCX",
 		start:"40% 90%",
@@ -304,7 +304,37 @@ gsap.from(".TiCX",{
 		scrub:1,
 		
 	},
-	transform: "scale(0.94)",
+	transform: "scale(0.8)",
+})
+gsap.from(".TiCXText2",{
+	scrollTrigger:{
+		trigger:".TiCX",
+		start:"50% 90%",
+		end:"70% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.8)",
+})
+gsap.from(".TiXCText",{
+	scrollTrigger:{
+		trigger:".TiXC",
+		start:"40% 90%",
+		end:"60% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.8)",
+})
+gsap.from(".TiXCText2",{
+	scrollTrigger:{
+		trigger:".TiXC",
+		start:"50% 90%",
+		end:"70% 70%",
+		scrub:1,
+		
+	},
+	transform: "scale(0.8)",
 })
 
 ScrollTrigger.refresh();
