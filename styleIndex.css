@@ -614,7 +614,65 @@ html {background-color: white}
 	 transform:;
 	 z-index:0;
  }
+
+ .TiTr{
+	position:relative;
+	display:flex;
+	width:100%;
+	max-width:1300px;
+	padding: 0 5rem;
+}
+.TiTrText{
+	position:absolute;
+	top:20%;
+	color:white;
+	left:6rem;
+	font-size: 2vw;
+	width:%;
+	z-index:1;
+}
+.TiTrText2{
+	position:absolute;
+	bottom:20%;
+	right:6rem;
+	 text-align:right;
+	text-align:center;
+	color:white;
+	font-size: 5vw;
+	width:30%;
+	z-index:1;
+}
+.TiTrText h3{
+	font-size:5vw;
+	color:white;
+}
+.TiTrText p{
+	background-color:;
+	color:white;
+}
+.TiTrText2 a{
+	background-color:;
+	color:white;
+	outline: 2px solid white;
+	outline-offset: 5px;
+}
+.TiTrText2 a:hover{
+	background-color: white;
+	color:black;
+	outline: 2px solid white;
+	outline-offset: 5px;
+}
+.TiTrImage{
+	position:relative;
+	width:100%;
+	transform:;
+	z-index:0;
+	filter: grayscale(100%);
+}
  
+
+
+
  .invLogo{
 	 width:130px;
  }
