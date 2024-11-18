@@ -207,7 +207,7 @@ html {background-color: white}
 		bottom: 55%;
 	}
 	.navLink a{
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	.scroll{
 		height: 8%;
@@ -278,7 +278,7 @@ html {background-color: white}
 .titaniumIntro{
 	flex-grow:1;
 	color:white;
-	margin:auto;
+	margin:;
 	text-align:center;
 	display:flex;
 	flex-direction:column;
@@ -442,71 +442,19 @@ html {background-color: white}
  
 
 
- .TiXC{
+
+
+ 
+ 
+ 
+ .showcaseFrame{
 	 position:relative;
 	 display:flex;
 	 width:100%;
 	 max-width:1300px;
 	 padding: 0 5rem;
  }
- .TiXCText{
-	 position:absolute;
-	 top:20%;
-	 color:white;
-	 font-size: 2vw;
-	 left:6rem;
-	 width:%;
-	 z-index:1;
-
- }
- .TiXCText2{
-	 position:absolute;
-	 bottom:20%;
-	 right:6rem;
-	 text-align:right;
-	 color:white;
-	 font-size: 2vw;
-	 width:30%;
-	 z-index:1;
- }
- .TiXCText h3{
-	 font-size: 5vw;
-	 color:white;
- }
- .TiXCText p{
-	 background-color:;
-	 color:white;
- }
- .TiXCText2 a{
-	 background-color:;
-	 color:white;
-	 outline: 2px solid white;
-	 outline-offset: 5px;
- }.TiXCText2 a:hover{
-	 background-color: white;
-	 color:black;
-	 outline: 2px solid white;
-	 outline-offset: 5px;
- }
- .TiXCImage{
-	 position:relative;
-	 width:100%;
-	 left:%;
-	 transform:;
-	 z-index:0;
- }
-
- 
- 
- 
- .TiGr{
-	 position:relative;
-	 display:flex;
-	 width:100%;
-	 max-width:1300px;
-	 padding: 0 5rem;
- }
- .TiGrText{
+ .showcaseFrameText{
 	 position:absolute;
 	 top:20%;
 	 color:white;
@@ -516,7 +464,7 @@ html {background-color: white}
 	 z-index:1;
 	
  }
- .TiGrText2{
+ .showcaseFrameText2{
 	 position:absolute;
 	 bottom:20%;
 	 right:6rem;
@@ -527,34 +475,34 @@ html {background-color: white}
 	 z-index:1;
 	 
  }
- .TiGrText h3{
+ .showcaseFrameText h3{
 	 font-size:5vw;
 	 color:white;
  }
- .TiGrText p{
+ .showcaseFrameText p{
 	 background-color:;
 	 color:white;
  }
- .TiGrText2 a{
+ .showcaseFrameText2 a{
 	 background-color:;
 	 color:white;
 	 outline: 2px solid white;
 	 outline-offset: 5px;
  }
- .TiGrText2 a:hover{
+ .showcaseFrameText2 a:hover{
 	 background-color: white;
 	 color:black;
 	 outline: 2px solid white;
 	 outline-offset: 5px;
  }
- .TiGrImage{
+ .showcaseFrameImage{
 	 position:relative;
 	 width:100%;
 	 transform:;
 	 z-index:0;
 	 
  }
- .TiGrImage:hover{
+ .showcaseFrameImage:hover{
 	 position:relative;
 	 width:100%;
 	 transform:;
@@ -562,58 +510,7 @@ html {background-color: white}
  }
  
  
- .TiCX{
-	 position:relative;
-	 display:flex;
-	 width:100%;
-	 max-width:1300px;
-	 padding: 0 5rem;
- }
- .TiCXText{
-	 position:absolute;
-	 top:20%;
-	 color:white;
-	 left:6rem;
-	 font-size: 2vw;
-	 width:%;
-	 z-index:1;
- }
- .TiCXText2{
-	 position:absolute;
-	 bottom:20%;
-	 right:6rem;
-	 text-align:right;
-	 color:white;
-	 font-size: 2vw;
-	 width:30%;
-	 z-index:1;
- }
- .TiCXText h3{
-	 font-size:5vw;
-	 color:white;
- }
- .TiCXText p{
-	 background-color:;
-	 color:white;
- }
- .TiCXText2 a{
-	 background-color:;
-	 color:white;
-	 outline: 2px solid white;
-	 outline-offset: 5px;
- }
- .TiCXText2 a:hover{
-	 background-color: white;
-	 color:black;
-	 outline: 2px solid white;
-	 outline-offset: 5px;
- }
- .TiCXImage{
-	 position:relative;
-	 width:100%;
-	 transform:;
-	 z-index:0;
- }
+ 
 
  .TiTr{
 	position:relative;
