@@ -525,13 +525,13 @@ html {background-color: white}
 	display:flex;
 	width:100%;
 	max-width:1300px;
-	padding: 0 5rem;
+	padding: 0 0rem;
 }
 .TiTrText{
 	position:absolute;
 	top:20%;
 	color:white;
-	left:6rem;
+	left:2rem;
 	font-size: 2vw;
 	width:%;
 	z-index:1;
@@ -539,7 +539,7 @@ html {background-color: white}
 .TiTrText2{
 	position:absolute;
 	bottom:20%;
-	right:6rem;
+	right:2rem;
 	 text-align:right;
 	text-align:center;
 	color:white;
@@ -575,7 +575,20 @@ html {background-color: white}
 	filter: grayscale(100%);
 }
  
-
+@media (max-width: 1150px) {
+	.TiTr{
+		padding: 0 0rem;
+	}
+	.TiTrText{
+		font-size: 3vw;
+	}
+	.TiTrText2{
+		font-size: 3vw;
+	}
+	.TiTr h3{
+		font-size:7vw;
+	}
+}
 
 
  .invLogo{
