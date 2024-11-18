@@ -452,13 +452,14 @@ html {background-color: white}
 	 display:flex;
 	 width:100%;
 	 max-width:1300px;
-	 padding: 0 5rem;
+	 padding: 0 0rem;
+	 background-color: gray;
  }
  .showcaseFrameText{
 	 position:absolute;
 	 top:20%;
 	 color:white;
-	 left:6rem;
+	 left:2rem;
 	 font-size: 2vw;
 	 width:;
 	 z-index:1;
@@ -467,7 +468,7 @@ html {background-color: white}
  .showcaseFrameText2{
 	 position:absolute;
 	 bottom:20%;
-	 right:6rem;
+	 right:2rem;
 	 text-align:right;
 	 color:white;
 	 font-size: 2vw;
@@ -502,14 +503,21 @@ html {background-color: white}
 	 z-index:0;
 	 
  }
- .showcaseFrameImage:hover{
-	 position:relative;
-	 width:100%;
-	 transform:;
-	 z-index:0;
- }
- 
- 
+
+ @media (max-width: 1150px) {
+	.showcaseFrame{
+		padding: 0 0rem;
+	}
+	.showcaseFrameText{
+		font-size: 3vw;
+	}
+	.showcaseFrameText2{
+		font-size: 3vw;
+	}
+	.showcaseFrameText h3{
+		font-size:7vw;
+	}
+}
  
 
  .TiTr{
