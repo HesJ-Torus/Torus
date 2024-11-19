@@ -298,7 +298,7 @@ html {background-color: white}
 	font-size:2.5vw;
 }
 .titaniumIntro p{
-	font-size:1.5vw;
+	font-size:1.8vw;
 }
 .introLine1{
 	display:flex;
@@ -335,7 +335,7 @@ html {background-color: white}
 	font-size:3rem;
 }
 .titaniumIntro p{
-	font-size:2rem;
+	font-size:3rem;
 }
 }
 .titaniumHead{
@@ -364,85 +364,7 @@ html {background-color: white}
 	 text-decoration: underline;
  }
  
- .disciplineHead{
-	 min-width:100%;
-	 color:white;
-	 font-size: 5rem;
-	 text-align:center;
-	 width:1000px;
-	 padding-top: 1.2rem;
-}
- 
- .disciplineText{
-	 min-width:100%;
-	 color:silver;
-	 font-size: 2.5rem;
-	 text-align:center;
-	 width:1000px;
-	 height:180px;
- }
- .disciplineText a{
-	 color: white;
-	 text-decoration: underline;
- }
- .framesHead{
-	 min-width:100%;
-	 color:white;
-	 font-size: 5rem;
-	 text-align:center;
-	 width:1000px;
-	 padding-top: 1.2rem;
-}
- 
- .framesText{
-	 min-width:100%;
-	 color:silver;
-	 font-size: 2.5rem;
-	 text-align:center;
-	 width:1000px;
-	 height:180px;
- }
- .framesText a{
-	 color: white;
-	 text-decoration: underline;
- }
- 
- .frame1{
-	 display:flex;
-	 width:100%;
-	 max-width:1300px;
-	 height:300px;
-	 align-items:center;
-	 justify-content:center;
- }
 
-  .frame1Text{
-	 text-align:center;
-	 color:white;
-	 font-size:2rem;
-	 z-index:1;
- }
-
- .frame2{
-	 display:flex;
-	 width:100%;
-	 max-width:1300px;
-	 height:300px;
-	 align-items:center;
-	 justify-content:center;
- }
-
-  .frame2Text{
-	 
-	 text-align:center;
-	 color:white;
-	 font-size:2rem;
-	 z-index:1;
- }
- 
-
-
- 
  
  .showcaseFrame{
 	 position:relative;
