@@ -513,6 +513,7 @@ html {background-color: white}
 	grid-template-columns: 1fr 1rem 1fr;
 	width:100%;
 	padding:0rem 4rem;
+	max-width: 1600px;
 }
 
  .invLogo{
