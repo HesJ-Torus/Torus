@@ -456,13 +456,12 @@ html {background-color: white}
 }
 .TiTrText2{
 	position:absolute;
-	bottom:20%;
+	bottom:10%;
 	right:2rem;
-	 text-align:right;
-	text-align:center;
+	text-align:right;
 	color:white;
-	font-size: 5vw;
-	width:30%;
+	font-size: 3vw;
+	width:50%;
 	z-index:1;
 }
 .TiTrText h3{
@@ -498,16 +497,23 @@ html {background-color: white}
 		padding: 0 0rem;
 	}
 	.TiTrText{
-		font-size: 3vw;
+		font-size: 2vw;
 	}
 	.TiTrText2{
 		font-size: 3vw;
 	}
 	.TiTr h3{
-		font-size:7vw;
+		font-size:5vw;
 	}
 }
 
+.comingSoon{
+	position: relative;
+	display:grid;
+	grid-template-columns: 1fr 1rem 1fr;
+	width:100%;
+	padding:0rem 4rem;
+}
 
  .invLogo{
 	 width:130px;
