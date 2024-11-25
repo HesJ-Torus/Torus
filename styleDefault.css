@@ -321,4 +321,11 @@ html {background-color: white}
 		opacity:100;
 	}
   }
+
+  /*infomation*/
+
+  .infomation{
+	display:flex;
+	
+  }
   
