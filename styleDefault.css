@@ -326,6 +326,49 @@ html {background-color: white}
 
   .infomation{
 	display:flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin:3rem;
 	
+  }
+  .infoBox{
+	position: relative;
+	align-self: center;
+	padding:2rem;
+	margin:1rem;
+	width:90%;
+	max-width: 1400px;
+	color:white;
+	background-color: #797982;
+  }
+  .infoBox p{
+	width:75%;
+	padding:1rem 0;
+	font-size: 1.5rem;
+  }
+  .infoBox img{
+	position:absolute;
+	height:150%;
+	left:75%;
+	top:50%;
+	transform: translateY(-50%);
+	z-index: 4;
+  }
+  .infoBox2{
+	position: relative;
+	align-self: center;
+	padding:2rem;
+	margin:1rem;
+	width:90%;
+	max-width: 1400px;
+	color:black;
+	border: 2px solid black;
+  }
+  .infoBox2 p{
+	padding:1rem 0;
+	font-size: 1.2rem;
+  }
+  .infoBox2 h3{
+	font-size: 2.5rem;
   }
   
