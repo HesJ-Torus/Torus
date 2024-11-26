@@ -510,7 +510,7 @@ html {background-color: white}
 .comingSoon{
 	position: relative;
 	display:grid;
-	grid-template-columns: 1fr 1rem 1fr;
+	grid-template-columns: 1fr 5rem 1fr;
 	width:100%;
 	padding:0rem 4rem;
 	max-width: 1600px;
