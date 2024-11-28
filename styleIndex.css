@@ -1,5 +1,5 @@
 
-html {background-color: white}
+html {background-color: black}
 
  *{
 	 padding:0;
@@ -32,13 +32,13 @@ html {background-color: white}
 	 display:flex;
 	 flex-direction: column;
 	 justify-content: space-between;
-	 background-image: url("images/NewBackground4.png");
-	 background-color:  rgba(255,255,255,0);
-	 background-blend-mode: lighten;
+	 background-image: url("images/gravelBar.png");
+	 background-color:  rgb(0, 0, 0, 0);
+	 background-blend-mode: darken;
 	 background-size: cover;
 	 background-repeat: no-repeat;
 	 background-position: center center;
-	 padding-bottom:10vh;
+	 padding-bottom:;
  }
  
 .menu{
@@ -68,7 +68,7 @@ html {background-color: white}
  .navLink a{
 	 display:inline-block;
 	 padding:2rem;
-	 color: black;
+	 color: white;
 	 font-weight: 400;
 	 font-size: 1.4rem;
 	 transition: 0.3s;
@@ -110,8 +110,8 @@ html {background-color: white}
 	 width:0rem;
 	 max-width: 1000px;
 	 height: 0px;
-	 bottom: 52%;
-	 left: 50%;
+	 bottom: 62%;
+	 left: 10%;
 	 transform: translateX(-50%) translateY(50%);
 	 background-image: url(images/favicon2.png);
 	 background-size: 100%;
@@ -120,16 +120,16 @@ html {background-color: white}
  }
  
  .bigName {
-	 position: relative;
+	 position: absolute;
 	 z-index: 1;
 	 padding-right: 2rem;
 	 padding-left: 2rem;
-	 Color: black;
-	 font-size: 7.5rem;
+	 Color: white;
+	 font-size: 6rem;
 	 font-weight: 1000;
-	 text-align: center;
+	 text-align: left;
 	 line-height: 1;
-	 bottom: -50px;
+	 bottom: 20%;
  }
  
  .bottomSection{
@@ -139,20 +139,20 @@ html {background-color: white}
 	 bottom:50px;
  }
  .bottomSection p {
-	 color: black;
+	 color: white;
 	 font-weight: 300;
 	 display: flex;
 	 align-items: center;
  }
  
  .bottomSection p i {
-	 color: black;
+	 color: white;
 	 font-weight: 300;
 	 margin-right: 1rem;
  }
  
  .bottomSection p a {
-	 color: black;
+	 color: white;
 	 font-weight: 300;
  }
  
@@ -163,7 +163,7 @@ html {background-color: white}
  
  .socials a{
 	 margin-left: 0.8rem;
-	 color: black;
+	 color: white;
 	 transition: 0.3s;
 	 
  }
@@ -174,11 +174,11 @@ html {background-color: white}
  
  .scroll{
 	 position:absolute;
-	 color: black;
+	 color: white;
 	 font-weight: 400;
-	 left: 50%;
+	 left: 33%;
 	 transform: translateX(-50%);
-	 bottom: 15%;
+	 bottom: 12%;
 	 height: 30px;
  }
  
@@ -207,13 +207,17 @@ html {background-color: white}
 		bottom: 55%;
 	}
 	.navLink a{
-		font-size: 2.5rem;
+		font-size: 2.1rem;
 	}
 	.scroll{
-		height: 8%;
+		bottom: 13%;
 		font-size: 2rem;
 	}
+	.bottomSection{
+		justify-content: flex-start;
+	}
 }
+
 
 
 

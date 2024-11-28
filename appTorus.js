@@ -4,25 +4,18 @@ gsap.registerPlugin(ScrollTrigger)
 let timeline = gsap.timeline();
 
 
-timeline.to(".imageWrap",{
-	height: "500px",
-	width: "17rem",
-	duration: 1,
-	ease: "power4.Out",
-}).to(".imageWrap",{
-	height: "300px",
-	width: "13rem",
-	duration: 1,
-	y: "0",
-	ease: "power4.Out",
-}, 1).from(".bigName", {
+timeline.from(".bigName", {
 	y: getYDistance(".bigName"),
+	duration: 1,
+}).from(".bigName", {
+	left:"6%",
 	duration: 1,
 }, 1).from(".hide",{
 	opacity: "0", 
 	duration: 1,
 }, 1).from("main",{
-	backgroundColor: "rgba(255,255,255,1)",
+	backgroundColor: "rgba(0,0,0,1)",
+	duration: 1,
 }, 1).to(".imageWrap",{
 	rotation: 360,
 	ease: "expo.out",
