@@ -137,18 +137,17 @@ html {background-color: white}
 
  .content{
     display: flex;
-    
-    min-height: 100vh;
     width:100%;
     padding:4rem 2rem;
+	height:100vh;
  }
  .video{
-    width:40%;
+    width:30%;
     background-color: beige;
  }
  .writeUp{
     display:flex;
-    width:60%
+    width:70%
  }
  .writeUp h2{
     font-size: 4rem;
@@ -160,14 +159,18 @@ html {background-color: white}
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    width:50%;
+    width:60%;
     padding:2rem 4rem;
+ }
+ .left img{
+	align-self: center;
+	max-width: 7rem;
  }
  .heading{
     text-align: center;
  }
  .leftText{
-
+	font-size: 1.3rem;
  }
  .right{
     display:flex;
@@ -175,16 +178,21 @@ html {background-color: white}
     justify-content: space-between;
     width:50%;
     padding:2rem 4rem;
-    
+    min-height:100%;
  }
  .right img{
-
+	max-height: 40%;
+	object-fit: contain;
+	padding-bottom: 3rem;
  }
  .rightText{
-
+	font-size: 1.3vw;
+	font-weight: 500;
+	margin-bottom: 3rem;
  }
+
  .frameLink{
-    justify-self: right;
+    align-self: flex-end;
     border: 2px solid rgba(0, 0, 0, 0);
     background-color:black;
     color:white;
@@ -201,12 +209,18 @@ html {background-color: white}
  @media (max-width: 1150px){
     .content{
         flex-wrap: wrap-reverse;
+		height:auto;
     }
     .video{
         width:100%;
+		min-height:80vh;
     }
     .writeUp{
-        
+        min-height: 40vh;
         width:100%
      }
+	 .rightText{
+		font-size: 1.5rem;
+	 }
+	 
  }
