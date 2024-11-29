@@ -458,7 +458,7 @@ html {background-color: black}
 	top:20%;
 	color:white;
 	left:2rem;
-	font-size: 2vw;
+	font-size: 1vw;
 	width:%;
 	z-index:1;
 }
@@ -468,12 +468,12 @@ html {background-color: black}
 	right:2rem;
 	text-align:right;
 	color:white;
-	font-size: 3vw;
+	font-size: 2vw;
 	width:50%;
 	z-index:1;
 }
 .TiTrText h3{
-	font-size:5vw;
+	font-size:4vw;
 	color:white;
 }
 .TiTrText p{
@@ -505,13 +505,13 @@ html {background-color: black}
 		padding: 0 0rem;
 	}
 	.TiTrText{
-		font-size: 2vw;
+		font-size: 1rem;
 	}
 	.TiTrText2{
-		font-size: 3vw;
+		font-size: 1.5rem;
 	}
 	.TiTr h3{
-		font-size:5vw;
+		font-size:3rem;
 	}
 }
 
