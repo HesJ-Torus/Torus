@@ -503,10 +503,10 @@ html {background-color: black}
 }
 .TiTrText{
 	position:absolute;
-	top:20%;
+	top:10%;
 	color:white;
 	left:2rem;
-	font-size: 1vw;
+	font-size: 1.3rem;
 	width:%;
 	z-index:1;
 }
@@ -516,12 +516,12 @@ html {background-color: black}
 	right:2rem;
 	text-align:right;
 	color:white;
-	font-size: 2vw;
+	font-size: 2rem;
 	width:50%;
 	z-index:1;
 }
 .TiTrText h3{
-	font-size:4vw;
+	font-size:4rem;
 	color:white;
 }
 .TiTrText p{
