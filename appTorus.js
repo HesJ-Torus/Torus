@@ -74,7 +74,7 @@ gsap.from("#title1",{
 		ease: "power3.out",
 		
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title2",{
 	scrollTrigger:{
@@ -85,7 +85,7 @@ gsap.from("#title2",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title3",{
 	scrollTrigger:{
@@ -95,7 +95,7 @@ gsap.from("#title3",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title4",{
 	scrollTrigger:{
@@ -105,7 +105,7 @@ gsap.from("#title4",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title5",{
 	scrollTrigger:{
@@ -115,7 +115,7 @@ gsap.from("#title5",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title6",{
 	scrollTrigger:{
@@ -125,7 +125,7 @@ gsap.from("#title6",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title7",{
 	scrollTrigger:{
@@ -135,7 +135,7 @@ gsap.from("#title7",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from("#title8",{
 	scrollTrigger:{
@@ -146,7 +146,7 @@ gsap.from("#title8",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight +100,
+	y: () => window.innerHeight +200,
 })
 gsap.from(".titaniumImage",{
 	scrollTrigger:{
