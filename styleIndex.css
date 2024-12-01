@@ -225,126 +225,137 @@ html {background-color: black}
 
 
 
- .content{
-	 display: flex;
-	 flex-direction: column;
-	 padding: 0rem 0rem;
-	 background-color:;
-	 justify-content: space-between;
-	 width:100%;
-	 align-items:center;
-	 overflow:hidden;
- }
- .titaniumPin{
-	 display:flex;
-	 flex-direction:column;
-	 width:100%;
-	 min-height:;
- }
- 
-.titaniumHeading{
-	display:flex;
-	justify-content:space-around;
-	color:white;
+.content{
+	display: flex;
+	flex-direction: column;
+	padding: 0rem 0rem;
+	background-color:;
+	justify-content: space-between;
 	width:100%;
-	padding:0 0;
+	align-items:center;
+	overflow:hidden;
+}
+.titaniumPin{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	max-width: 1920px;
+}
+
+.titaniumHeading{
+   display:flex;
+   justify-content:space-around;
+   color:white;
+   width:100%;
+   padding:0 0;
 }
 .titaniumHeading h1{
-	font-size:18rem;
-	z-index:5;
-	line-height:16.5rem;
+   font-size:18rem;
+   z-index:5;
+   line-height:16.5rem;
+   font-weight: 700;
 }
 @media (max-width: 1534px) {
-	.titaniumHeading h1{
-	font-size:15rem;
-	line-height:13.5rem;
+   .titaniumHeading h1{
+   font-size:15rem;
+   line-height:13.5rem;
 }
 }
 @media (max-width: 1280px) {
-	.titaniumHeading h1{
-	font-size:12rem;
-	line-height:12rem;
+   .titaniumHeading h1{
+   font-size:12rem;
+   line-height:12rem;
 }
 }
 .titaniumContent{
-	display:flex;
-	width:100%;
-	flex-grow:1;
-	align-items:center;
-	justify-content:space-around;
+   display:flex;
+   width:100%;
+   flex-grow:1;
+   align-items:center;
+   justify-content:space-around;
 }
 .titaniumImageContainer{
-	position:relative;
-	width:60%;
-	overflow:hidden;
-	
+   position:relative;
+   width:60%;
+   overflow:hidden;
+   
 }
 .titaniumImage{
-	width:100%;
+   width:100%;
 }
 
 .titaniumIntro{
-	flex-grow:1;
-	color:white;
-	margin:;
-	text-align:center;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-}
-.titaniumIntro h1{
-	font-size:7vw;
-}
-.titaniumIntro h2{
-	font-size:5vw;
+   flex-grow:1;
+   color:white;
+   width:40%;
+   text-align:center;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
 }
 .titaniumIntro h3{
-	font-size:3vw;
-}
-.titaniumIntro h4{
-	font-size:2.5vw;
+   font-size:5rem;
+   font-weight:900;
 }
 .titaniumIntro p{
-	font-size:1.8vw;
+   font-size:2rem;
 }
-.introLine1{
-	display:flex;
-	align-items:center;
-	justify-content:space-between;
-	width:80%;
+.introLogo{
+   width:7rem;
+   display: none;
 }
-.introline2{
-	display:flex;
-	align-items:center;
-	justify-content:space-between;
+.introline1{
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+}
+.introLine2{
+   display:flex;
+   align-items:center;
+   justify-content:space-around;
+   width:80%;
+}
+@media (max-width: 1700px) {
+   .titaniumIntro h3{
+	   font-size:3.5rem; 
+   }
+   .titaniumIntro p{
+	   font-size:2.5rem;
+   }
+   .introLine2{
+	   width: 65%;
+   }
 }
 @media (max-width: 1150px) {
-	.titaniumContent{
-		flex-wrap:wrap;
-	}
-	.titaniumImageContainer{
-		width:100%;
-		min-height:;
-	}
-	.titaniumIntro{
-		padding:0 5rem;
-	}
-	.titaniumIntro h1{
-	font-size:9rem;
-}
-.titaniumIntro h2{
-	font-size:6rem;
-}
-.titaniumIntro h3{
-	font-size:4rem;
-}
-.titaniumIntro h4{
-	font-size:3rem;
-}
-.titaniumIntro p{
-	font-size:3rem;
-}
+   .titaniumHeading h1{
+	   font-size:11rem;
+	   line-height:12rem;
+   }
+   .titaniumPin{
+	   min-height: 80vh;
+   }
+   .titaniumContent{
+	   flex-wrap:wrap;
+   }
+   .titaniumImageContainer{
+	   width:100%;
+	   min-height:;
+   }
+   .titaniumIntro{
+	   padding:0 5rem;
+   }
+   .titaniumIntro h3{
+   font-size:6rem; 
+   }
+   .titaniumIntro p{
+   font-size:4rem;
+   }
+   .introLogo{
+	   width:7rem;
+	   display: block;
+	   align-self: center;
+   }
 }
 .titaniumHead{
 	 min-width:100%;

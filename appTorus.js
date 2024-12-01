@@ -181,58 +181,13 @@ gsap.from("#intro1",{
 gsap.from("#intro2",{
 	scrollTrigger:{
 		trigger:".bigPin",
-		start:"11% top",
-		end:"36% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro3",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"12% top",
-		end:"37% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro4",{
-	scrollTrigger:{
-		trigger:".bigPin",
 		start:"14% top",
 		end:"39% top",
 		scrub:1,
 	},
 	y: () => window.innerHeight,
 })
-gsap.from("#intro5",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"13% top",
-		end:"38% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro6",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"16% top",
-		end:"41% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro7",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"17% top",
-		end:"42% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro8",{
+gsap.from("#intro3",{
 	scrollTrigger:{
 		trigger:".bigPin",
 		start:"18% top",
@@ -241,29 +196,20 @@ gsap.from("#intro8",{
 	},
 	y: () => window.innerHeight,
 })
-gsap.from("#intro9",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"19% top",
-		end:"44% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro10",{
-	scrollTrigger:{
-		trigger:".bigPin",
-		start:"20% top",
-		end:"45% top",
-		scrub:1,
-	},
-	y: () => window.innerHeight,
-})
-gsap.from("#intro11",{
+gsap.from("#intro4",{
 	scrollTrigger:{
 		trigger:".bigPin",
 		start:"21% top",
 		end:"46% top",
+		scrub:1,
+	},
+	y: () => window.innerHeight,
+})
+gsap.from("#intro5",{
+	scrollTrigger:{
+		trigger:".bigPin",
+		start:"22% top",
+		end:"48% top",
 		scrub:1,
 	},
 	y: () => window.innerHeight,
