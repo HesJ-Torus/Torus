@@ -349,7 +349,7 @@ html {background-color: black}
    font-size:6rem; 
    }
    .titaniumIntro p{
-   font-size:4rem;
+   font-size:3rem;
    }
    .introLogo{
 	   width:7rem;
@@ -383,7 +383,44 @@ html {background-color: black}
 	 text-decoration: underline;
  }
  
-
+ .possibilities{
+	margin:6rem 0;
+	text-align: left;
+	overflow: hidden;
+ }
+ .possibilities div{
+	display: flex;
+	overflow: hidden;
+	gap: 2rem;
+ }
+ .possibilities h2{
+	color:white;
+	font-size: 8rem;
+	overflow: hidden;
+ }
+ #poss2{
+	
+ }
+ @media (max-width: 1450px) {
+	.possibilities h2{
+		font-size: 7rem;
+	 }
+ }
+ @media (max-width: 1200px) {
+	.possibilities h2{
+		font-size: 6rem;
+	 }
+ }
+ @media (max-width: 1150px) {
+	.possibilities h2{
+		font-size: 7rem;
+	 }
+	 .possibilities div{
+		flex-wrap: wrap;
+		gap:0;
+		margin:0 3rem;
+	 }
+ }
  
  .showcaseFrame{
 	 position:relative;

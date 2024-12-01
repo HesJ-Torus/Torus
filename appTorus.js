@@ -50,7 +50,7 @@ gsap.to("main", {
 		scrub:"true",
 		toggleActions:"restart none reverse none"
 	},
-	opacity:"0"
+	opacity:"0",
 });
 
 
@@ -74,7 +74,7 @@ gsap.from("#title1",{
 		ease: "power3.out",
 		
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title2",{
 	scrollTrigger:{
@@ -85,7 +85,7 @@ gsap.from("#title2",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title3",{
 	scrollTrigger:{
@@ -95,7 +95,7 @@ gsap.from("#title3",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title4",{
 	scrollTrigger:{
@@ -105,7 +105,7 @@ gsap.from("#title4",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title5",{
 	scrollTrigger:{
@@ -115,7 +115,7 @@ gsap.from("#title5",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title6",{
 	scrollTrigger:{
@@ -125,7 +125,7 @@ gsap.from("#title6",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title7",{
 	scrollTrigger:{
@@ -135,7 +135,7 @@ gsap.from("#title7",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from("#title8",{
 	scrollTrigger:{
@@ -146,7 +146,7 @@ gsap.from("#title8",{
 		scrub:1,
 		ease: "power3.out",
 	},
-	y: () => window.innerHeight,
+	y: () => window.innerHeight +100,
 })
 gsap.from(".titaniumImage",{
 	scrollTrigger:{
@@ -213,6 +213,30 @@ gsap.from("#intro5",{
 		scrub:1,
 	},
 	y: () => window.innerHeight,
+})
+
+gsap.from("#poss1",{
+	scrollTrigger:{
+		trigger:".possibilities",
+		start: "top 80%",
+	},
+	y: 500,
+})
+gsap.from("#poss2",{
+	scrollTrigger:{
+		trigger:".possibilities",
+		start: "top 80%",
+	},
+	y: 500,
+	delay: 0.1,
+})
+gsap.from("#poss3",{
+	scrollTrigger:{
+		trigger:".possibilities",
+		start: "top 80%",
+	},
+	y: 500,
+	delay: 0.2,
 })
 
 gsap.from(".TiGrText",{
