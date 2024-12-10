@@ -384,9 +384,10 @@ html {background-color: black}
  }
  
  .possibilities{
-	margin:6rem 0;
+	margin:5rem 1rem;
 	text-align: left;
 	overflow: hidden;
+	max-width: 1400px;
  }
  .possibilities div{
 	display: flex;
@@ -397,6 +398,11 @@ html {background-color: black}
 	color:white;
 	font-size: 8rem;
 	overflow: hidden;
+ }
+ .possibilities p{
+	color:white;
+	font-size: 1.5rem;
+	margin:1rem 0;
  }
  #poss2{
 	
@@ -413,12 +419,16 @@ html {background-color: black}
  }
  @media (max-width: 1150px) {
 	.possibilities h2{
-		font-size: 7rem;
+		font-size: 8rem;
 	 }
 	 .possibilities div{
 		flex-wrap: wrap;
 		gap:0;
 		margin:0 3rem;
+	 }
+	 .possibilities p{
+		margin:0 3rem;
+		font-size: 1rem;
 	 }
  }
  
