@@ -249,20 +249,20 @@ html {background-color: black}
    width:100%;
    padding:0 0;
 }
-.titaniumHeading h1{
+.titaniumHeading h4{
    font-size:18rem;
    z-index:5;
    line-height:16.5rem;
    font-weight: 700;
 }
 @media (max-width: 1534px) {
-   .titaniumHeading h1{
+   .titaniumHeading h4{
    font-size:15rem;
    line-height:13.5rem;
 }
 }
 @media (max-width: 1280px) {
-   .titaniumHeading h1{
+   .titaniumHeading h4{
    font-size:12rem;
    line-height:12rem;
 }
