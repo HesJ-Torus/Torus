@@ -304,6 +304,7 @@ html {background-color: black}
 .introLogo{
    width:7rem;
    display: none;
+   margin-top: 2rem;
 }
 .introline1{
    display:flex;
@@ -316,6 +317,15 @@ html {background-color: black}
    justify-content:space-around;
    width:80%;
 }
+.introLine3{
+	align-items:center;
+	width:80%;
+	font-size: 1rem;
+	margin-top: 2rem;
+ }
+ .introLine3 p{
+	font-size: 1.5rem;
+ }
 @media (max-width: 1700px) {
    .titaniumIntro h3{
 	   font-size:3.5rem; 
@@ -325,6 +335,9 @@ html {background-color: black}
    }
    .introLine2{
 	   width: 65%;
+   }
+   .introLine3 p{
+		font-size: 1.2rem;
    }
 }
 @media (max-width: 1150px) {
@@ -351,6 +364,7 @@ html {background-color: black}
    .titaniumIntro p{
    font-size:3rem;
    }
+   
    .introLogo{
 	   width:7rem;
 	   display: block;
@@ -429,6 +443,7 @@ html {background-color: black}
 	 .possibilities p{
 		margin:0 3rem;
 		font-size: 1rem;
+		margin-top: 2rem;
 	 }
  }
  
