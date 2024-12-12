@@ -361,8 +361,9 @@ html {background-color: black}
    .titaniumIntro h3{
    font-size:6rem; 
    }
-   .titaniumIntro p{
+   .introLine3 p{
    font-size:2rem;
+   margin-top: 1rem;
    }
    
    .introLogo{
@@ -416,7 +417,7 @@ html {background-color: black}
  .possibilities p{
 	color:white;
 	font-size: 2rem;
-	margin:1rem 0;
+	margin: 1rem 0;
  }
  #poss2{
 	
